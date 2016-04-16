@@ -1,0 +1,94 @@
+﻿Log file open, 04/16/16 14:10:18
+LogInit:Display: Running engine for game: WorldShiftBase
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(619340461) SRandInit(619340462).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.071535
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files (x86)\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.04.16-13.10.18:321][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.16-13.10.18:321][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.16-13.10.18:332][  0]LogInit: Computer: UNICRON
+[2016.04.16-13.10.18:332][  0]LogInit: User: AdamEdinburgh
+[2016.04.16-13.10.18:332][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.16-13.10.18:332][  0]LogInit: High frequency timer resolution =3.312638 MHz
+[2016.04.16-13.10.18:332][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.16-13.10.18:333][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.16-13.10.18:333][  0]LogMemory: Process Physical Memory: 317.48 MB used, 317.48 MB peak
+[2016.04.16-13.10.18:333][  0]LogMemory: Process Virtual Memory: 317.70 MB used, 317.70 MB peak
+[2016.04.16-13.10.18:333][  0]LogMemory: Physical Memory: 5349.52 MB used, 8072.55 MB total
+[2016.04.16-13.10.18:333][  0]LogMemory: Virtual Memory: 696.63 MB used, 134217728.00 MB total
+[2016.04.16-13.10.18:360][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.04.16-13.10.18:730][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.16-13.10.18:751][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.04.16-13.10.18:751][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 1 output[s]
+[2016.04.16-13.10.18:757][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.04.16-13.10.18:757][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
+[2016.04.16-13.10.18:759][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.04.16-13.10.18:759][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
+[2016.04.16-13.10.18:759][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.16-13.10.18:764][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.16-13.10.18:764][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.04.16-13.10.18:764][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.04.16-13.10.18:764][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.04.16-13.10.18:764][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.16-13.10.18:775][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.16-13.10.18:785][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Intermediate/Shaders/WorkingDirectory/11928/).
+[2016.04.16-13.10.18:785][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADAMED~1/AppData/Local/Temp/UnrealShaderWorkingDir/77FB377E4AD606F34E5BD88A0619E797/'.
+[2016.04.16-13.10.18:785][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.16-13.10.19:716][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.16-13.10.19:720][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.16-13.10.19:724][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.16-13.10.19:728][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.16-13.10.19:732][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.16-13.10.19:735][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.16-13.10.19:738][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.16-13.10.19:740][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.16-13.10.19:743][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.16-13.10.19:746][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.16-13.10.19:749][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.16-13.10.19:755][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.16-13.10.19:755][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.16-13.10.19:756][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.16-13.10.19:771][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.16-13.10.19:773][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.16-13.10.19:776][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.16-13.10.19:779][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.16-13.10.19:781][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.16-13.10.19:781][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.16-13.10.19:842][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.16-13.10.19:897][  0]LogDerivedDataCache: Loaded boot cache 0.06s 58MB C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.16-13.10.19:897][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.16-13.10.19:898][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.16-13.10.19:898][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.16-13.10.19:898][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.16-13.10.19:898][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.16-13.10.19:910][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.16-13.10.19:921][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.16-13.10.20:453][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.16-13.10.20:454][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.16-13.10.20:488][  0]LogMaterial: Uniform references updated for cus
