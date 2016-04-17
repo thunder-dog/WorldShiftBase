@@ -1,9 +1,9 @@
-﻿Log file open, 04/16/16 14:12:59
+﻿Log file open, 04/17/16 10:49:30
 LogInit:Display: Running engine for game: WorldShiftBase
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1153022440) SRandInit(1153022443).
+LogInit:Display: RandInit(-1995328667) SRandInit(-1995328666).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.076320
+LogStats: Stats thread started at 0.367696
 OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files (x86)\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
 LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
 LogInit: API Version: 2927265
@@ -30,65 +30,1190 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.04.16-13.12.59:512][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.16-13.12.59:512][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.04.16-13.12.59:521][  0]LogInit: Computer: UNICRON
-[2016.04.16-13.12.59:521][  0]LogInit: User: AdamEdinburgh
-[2016.04.16-13.12.59:521][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.04.16-13.12.59:522][  0]LogInit: High frequency timer resolution =3.312638 MHz
-[2016.04.16-13.12.59:522][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.04.16-13.12.59:522][  0]LogMemory: Platform Memory Stats for Windows
-[2016.04.16-13.12.59:522][  0]LogMemory: Process Physical Memory: 317.55 MB used, 317.55 MB peak
-[2016.04.16-13.12.59:522][  0]LogMemory: Process Virtual Memory: 317.61 MB used, 317.61 MB peak
-[2016.04.16-13.12.59:522][  0]LogMemory: Physical Memory: 5382.46 MB used, 8072.55 MB total
-[2016.04.16-13.12.59:522][  0]LogMemory: Virtual Memory: 696.63 MB used, 134217728.00 MB total
-[2016.04.16-13.12.59:550][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2016.04.16-13.12.59:918][  0]LogD3D11RHI: D3D11 adapters:
-[2016.04.16-13.12.59:941][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2016.04.16-13.12.59:941][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 1 output[s]
-[2016.04.16-13.12.59:948][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2016.04.16-13.12.59:948][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
-[2016.04.16-13.12.59:949][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.04.16-13.12.59:949][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
-[2016.04.16-13.12.59:949][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.04.16-13.12.59:954][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.04.16-13.12.59:954][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2016.04.16-13.12.59:954][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.04.16-13.12.59:954][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.04.16-13.12.59:954][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.04.16-13.12.59:965][  0]LogD3D11RHI: Async texture creation enabled
-[2016.04.16-13.12.59:975][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Intermediate/Shaders/WorkingDirectory/8440/).
-[2016.04.16-13.12.59:975][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADAMED~1/AppData/Local/Temp/UnrealShaderWorkingDir/53225C4245F5ABB175AD94B7C2BD8387/'.
-[2016.04.16-13.12.59:975][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.04.16-13.13.00:907][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.04.16-13.13.00:911][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.04.16-13.13.00:916][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.04.16-13.13.00:922][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.04.16-13.13.00:927][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.04.16-13.13.00:931][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.04.16-13.13.00:934][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.04.16-13.13.00:937][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.04.16-13.13.00:941][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.04.16-13.13.00:945][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.04.16-13.13.00:948][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.04.16-13.13.00:956][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.04.16-13.13.00:956][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.04.16-13.13.00:957][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.04.16-13.13.00:973][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.04.16-13.13.00:977][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.04.16-13.13.00:981][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.04.16-13.13.00:984][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.04.16-13.13.00:988][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.04.16-13.13.00:988][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.04.16-13.13.01:062][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.04.16-13.13.01:131][  0]LogDerivedDataCache: Loaded boot cache 0.07s 58MB C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.04.16-13.13.01:131][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.04.16-13.13.01:131][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.04.16-13.13.01:131][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.04.16-13.13.01:131][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.04.16-13.13.01:131][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.04.16-13.13.01:145][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.04.16-13.13.01:157][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.04.16-13.13.01:691][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.16-13.13.01:691][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.04.16-13.13.01:720][  0]LogMaterial: Uniform references updated for custom materi
+[2016.04.17-09.49.30:233][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.17-09.49.30:233][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.17-09.49.30:251][  0]LogInit: Computer: UNICRON
+[2016.04.17-09.49.30:251][  0]LogInit: User: AdamEdinburgh
+[2016.04.17-09.49.30:251][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.17-09.49.30:251][  0]LogInit: High frequency timer resolution =3.312646 MHz
+[2016.04.17-09.49.30:251][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.17-09.49.30:251][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.17-09.49.30:251][  0]LogMemory: Process Physical Memory: 319.83 MB used, 319.83 MB peak
+[2016.04.17-09.49.30:251][  0]LogMemory: Process Virtual Memory: 317.63 MB used, 317.63 MB peak
+[2016.04.17-09.49.30:251][  0]LogMemory: Physical Memory: 3898.68 MB used, 8072.55 MB total
+[2016.04.17-09.49.30:251][  0]LogMemory: Virtual Memory: 697.10 MB used, 134217728.00 MB total
+[2016.04.17-09.49.30:711][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.04.17-09.49.31:157][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.17-09.49.31:176][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.04.17-09.49.31:176][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 1 output[s]
+[2016.04.17-09.49.31:181][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.04.17-09.49.31:181][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
+[2016.04.17-09.49.31:182][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.04.17-09.49.31:182][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
+[2016.04.17-09.49.31:183][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.17-09.49.31:187][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.17-09.49.31:187][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.04.17-09.49.31:187][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.04.17-09.49.31:187][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.04.17-09.49.31:187][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.17-09.49.31:198][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.17-09.49.31:213][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Intermediate/Shaders/WorkingDirectory/8416/).
+[2016.04.17-09.49.31:214][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADAMED~1/AppData/Local/Temp/UnrealShaderWorkingDir/6D3C368542320DAB552AA19D8402A16E/'.
+[2016.04.17-09.49.31:214][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.17-09.49.33:496][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.17-09.49.33:500][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.17-09.49.33:504][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.17-09.49.33:508][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.17-09.49.33:512][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.17-09.49.33:529][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.17-09.49.33:531][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.17-09.49.33:534][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.17-09.49.33:537][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.17-09.49.33:540][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.17-09.49.33:543][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.17-09.49.33:548][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.17-09.49.33:548][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.17-09.49.33:549][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.17-09.49.33:602][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.17-09.49.33:604][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.17-09.49.33:607][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.17-09.49.33:610][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.17-09.49.33:615][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.17-09.49.33:616][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.17-09.49.34:222][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.17-09.49.34:670][  0]LogDerivedDataCache: Loaded boot cache 0.45s 50MB C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.17-09.49.34:670][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.17-09.49.34:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.17-09.49.34:671][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.17-09.49.34:671][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.17-09.49.34:671][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.17-09.49.34:711][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.17-09.49.34:742][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.17-09.49.40:535][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.17-09.49.40:619][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.17-09.49.41:034][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.17-09.49.41:504][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.17-09.49.41:504][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.17-09.49.41:504][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.17-09.49.44:968][  0]LogUObjectArray: 27678 objects as part of root set at end of initial load.
+[2016.04.17-09.49.44:975][  0]LogUObjectAllocator: 5591384 out of 0 bytes used by permanent object pool.
+[2016.04.17-09.49.44:975][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.17-09.49.44:987][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.17-09.49.45:799][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.17-09.49.45:799][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.17-09.49.46:916][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.17-09.49.46:916][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.17-09.49.46:916][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.17-09.49.46:916][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.17-09.49.46:916][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.17-09.49.46:916][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.17-09.49.50:425][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.17-09.49.50:623][  0]LogAssetRegistry: FAssetRegistry took 0.0210 seconds to start up
+[2016.04.17-09.49.51:740][  0]SourceControl: Info Source control is disabled
+[2016.04.17-09.49.51:741][  0]SourceControl: Info Source control is disabled
+[2016.04.17-09.49.51:824][  0]SourceControl: Info Source control is disabled
+[2016.04.17-09.49.51:849][  0]SourceControl: Info Source control is disabled
+[2016.04.17-09.49.52:572][  0]LogEngine: Initializing Engine...
+[2016.04.17-09.49.52:846][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-031B5D7F
+[2016.04.17-09.49.52:865][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-031B5D7F
+[2016.04.17-09.49.52:899][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-031B5D7F
+[2016.04.17-09.49.53:835][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.17-09.49.53:865][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-09.49.53:878][  0]LogInit: FAudioDevice initialized.
+[2016.04.17-09.49.53:907][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.17-09.49.53:937][  0]LogInit: Texture streaming: Enabled
+[2016.04.17-09.49.54:074][  0]LogInit: Transaction tracking system initialized
+[2016.04.17-09.49.54:234][  0]BlueprintLog: New page: Editor Load
+[2016.04.17-09.49.54:574][  0]LocalizationService: Info Localization service is disabled
+[2016.04.17-09.49.54:916][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.04.17-09.49.54:927][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.04.17-09.49.54:927][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.04.17-09.49.55:060][  0]LogConsoleResponse:Display: 
+[2016.04.17-09.49.57:189][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/' took 0.01s
+[2016.04.17-09.49.57:189][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.17-09.49.57:190][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.17-09.49.57:191][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.17-09.49.57:535][  0]SourceControl: Info Source control is disabled
+[2016.04.17-09.49.57:542][  0]Cmd: MAP LOAD FILE="../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.17-09.49.57:592][  0]LightingResults: New page: Lighting Build
+[2016.04.17-09.49.57:620][  0]MapCheck: New page: Map Check
+[2016.04.17-09.49.57:620][  0]LightingResults: New page: Lighting Build
+[2016.04.17-09.49.59:070][  0]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.17-09.49.59:323][  0]LogEditorServer: Finished looking for orphan Actors (0.015 secs)
+[2016.04.17-09.49.59:339][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.17-09.49.59:376][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.267ms to complete.
+[2016.04.17-09.49.59:376][  0]LogFileHelpers: Loading map 'MainLevel' took 1.834
+[2016.04.17-09.49.59:714][  0]LogCollectionManager: Loaded 0 collections in 0.001747 seconds
+[2016.04.17-09.49.59:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Collections/' took 0.01s
+[2016.04.17-09.49.59:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Developers/AdamEdinburgh/Collections/' took 0.01s
+[2016.04.17-09.49.59:798][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Collections/' took 0.01s
+[2016.04.17-09.49.59:798][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.17-09.49.59:809][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 1979 classes and 343 folders.
+[2016.04.17-09.49.59:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.17-09.49.59:834][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.17-09.49.59:835][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0004 seconds. Added 12 classes and 0 folders.
+[2016.04.17-09.49.59:839][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.17-09.49.59:917][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.17-09.50.00:705][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.17-09.50.00:717][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.17-09.50.01:128][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.17-09.50.01:145][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.17-09.50.01:214][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.04.17-09.50.01:214][  0]LogLoad: Full Startup: 34.03 seconds (BP compile: 0.23 seconds)
+[2016.04.17-09.50.01:214][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.17-09.50.01:223][  0]LogOcInput: OculusInput pre-init called
+[2016.04.17-09.50.01:232][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.3.1
+[2016.04.17-09.50.01:421][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.17-09.50.01:856][  0]LogRenderer: Reallocating scene render targets to support 720x308 (Frame:2).
+[2016.04.17-09.50.02:040][  2]LogAssetRegistry: Asset discovery search completed in 11.4376 seconds
+[2016.04.17-09.50.02:045][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.17-09.50.02:053][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.012101 seconds (updated 0 objects)
+[2016.04.17-09.50.19:452][ 26]LogEditorViewport: Clicking on Actor (LMB): PlayerDummy_C (PlayerDummy)
+[2016.04.17-09.50.51:581][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator0' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:581][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator1' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:581][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator2' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:581][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator3' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:581][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator4' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:581][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator5' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:581][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::EFloorAngles_MAX' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:581][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator0' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:581][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator1' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:582][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator2' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:582][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator3' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:582][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator4' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:582][766]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator5' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
+[2016.04.17-09.50.51:628][766]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 108 classes and 0 folders.
+[2016.04.17-09.53.04:261][267]Cmd: DELETE
+[2016.04.17-09.53.04:261][267]Cmd: ACTOR DELETE
+[2016.04.17-09.53.04:370][267]LogEditorActor: Deleted Actor: DeformingWorldSegment_C
+[2016.04.17-09.53.04:409][267]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2016.04.17-09.53.52:953][ 49]Cmd: DELETE
+[2016.04.17-09.53.52:953][ 49]Cmd: ACTOR DELETE
+[2016.04.17-09.53.52:954][ 49]LogEditorActor: Deleted Actor: DeformingWorldSegment_C
+[2016.04.17-09.53.52:970][ 49]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2016.04.17-09.55.41:240][193]LogSavePackage: Save=214.60ms
+[2016.04.17-09.55.41:240][193]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy271521624D7F0BCDE3DA8993D5A11833.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-09.55.41:244][193]LogSavePackage: Total save time: 266.99ms
+[2016.04.17-09.55.41:244][193]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.00.32:534][718]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.00.32:711][718]BlueprintEditorCompileResults: Info [0665.53] Compile of PlayerDummy successful! [in 175 ms]
+[2016.04.17-10.00.33:374][763]LogSavePackage: Save=224.24ms
+[2016.04.17-10.00.33:374][763]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyABB681AF473C821D9E9EB2999E53D415.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.00.33:376][763]LogSavePackage: Total save time: 232.61ms
+[2016.04.17-10.00.33:376][763]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.00.34:269][848]LogSavePackage: Save=90.33ms
+[2016.04.17-10.00.34:269][848]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevel_Auto1F62FC3C542FDFB901D236FABA49A0C79.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Autosaves/Game/Levels/MainLevel_Auto1.umap'
+[2016.04.17-10.00.34:270][848]LogSavePackage: Total save time: 99.02ms
+[2016.04.17-10.00.34:270][848]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Autosaves/Game/Levels/MainLevel_Auto1.umap
+[2016.04.17-10.00.34:272][848]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLevel' took 0.121
+[2016.04.17-10.00.34:272][848]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.121
+[2016.04.17-10.01.13:584][487]LogTemp: Dropped AimingHand on Category Input
+[2016.04.17-10.01.18:103][ 18]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.01.18:395][ 18]BlueprintEditorCompileResults: Info [0711.21] Compile of PlayerDummy successful! [in 291 ms]
+[2016.04.17-10.01.18:827][ 34]LogSavePackage: Save=222.76ms
+[2016.04.17-10.01.18:827][ 34]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy7C263FB845D92C2AF04A529AA4EE2354.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.01.18:830][ 34]LogSavePackage: Total save time: 233.89ms
+[2016.04.17-10.01.18:830][ 34]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.03.38:186][571]LogTemp: Dropped ActivePower on Category Input
+[2016.04.17-10.03.41:727][983]LogTemp: Dropped PlayerPowerState on Category Input
+[2016.04.17-10.03.46:160][506]LogTemp: Dropped PlayerPowerState on Category Input
+[2016.04.17-10.04.23:167][916]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.04.23:501][916]BlueprintEditorCompileResults: Info [0896.32] Compile of PlayerDummy successful! [in 333 ms]
+[2016.04.17-10.04.23:957][934]LogSavePackage: Save=239.18ms
+[2016.04.17-10.04.23:957][934]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy7A9936A248536EF974AB63A365E96F9E.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.04.23:959][934]LogSavePackage: Total save time: 247.54ms
+[2016.04.17-10.04.23:959][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.04.52:055][286]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.04.52:243][286]BlueprintEditorCompileResults: Info [0925.06] Compile of PlayerDummy successful! [in 187 ms]
+[2016.04.17-10.04.52:782][312]LogSavePackage: Save=241.65ms
+[2016.04.17-10.04.52:782][312]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy3836627E47D24CBFB01073BDEE9B1BDD.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.04.52:784][312]LogSavePackage: Total save time: 247.97ms
+[2016.04.17-10.04.52:784][312]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.05.16:520][155]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_522.EdGraphPin_33877''
+[2016.04.17-10.05.16:520][155]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_265.EdGraphPin_33858''
+[2016.04.17-10.05.16:520][155]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_264.EdGraphPin_33863''
+[2016.04.17-10.06.44:532][592]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_EnumEquality_1.EdGraphPin_35758''
+[2016.04.17-10.07.05:755][119]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.07.05:952][119]BlueprintEditorCompileResults: Info [1058.77] Compile of PlayerDummy successful! [in 196 ms]
+[2016.04.17-10.07.06:760][174]LogSavePackage: Save=264.87ms
+[2016.04.17-10.07.06:760][174]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy10427011404269CFC8DFAEA5E9FE871C.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.07.06:763][174]LogSavePackage: Total save time: 279.01ms
+[2016.04.17-10.07.06:763][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.07.17:590][428]LogSavePackage: Save=256.31ms
+[2016.04.17-10.07.17:590][428]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy32A4742B4AE8177FD3E23FAF55C68EAE.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.07.17:593][428]LogSavePackage: Total save time: 262.75ms
+[2016.04.17-10.07.17:593][428]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.07.50:276][274]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.07.50:466][274]BlueprintEditorCompileResults: Info [1103.28] Compile of PlayerDummy successful! [in 189 ms]
+[2016.04.17-10.07.51:166][315]LogSavePackage: Save=273.61ms
+[2016.04.17-10.07.51:166][315]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyD95D37CD44387B9264F6F5912D449CB6.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.07.51:169][315]LogSavePackage: Total save time: 280.72ms
+[2016.04.17-10.07.51:169][315]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.08.20:551][555]LogRenderer: Reallocating scene render targets to support 720x480 (Frame:29788).
+[2016.04.17-10.08.24:451][973]LogRenderer: Reallocating scene render targets to support 720x496 (Frame:30303).
+[2016.04.17-10.09.02:668][532]LogMaterial: Missing cached shader map for material BasicShapeMaterial, compiling. 
+[2016.04.17-10.09.37:026][481]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.037 s
+[2016.04.17-10.09.37:026][481]LogOutputDevice:Warning: === Handled error: ===
+
+Ensure condition failed: OwnerActor [File:D:\BuildFarm\buildmachine_++UE4+Release-4.11\Engine\Source\Runtime\Engine\Private\AI\Navigation\NavigationSystem.cpp] [Line: 2493]
+
+Stack: 
+
+
+[2016.04.17-10.09.37:037][481]LogStats:                SubmitErrorReport -  0.010 s
+[2016.04.17-10.09.43:457][481]LogStats:                    SendNewReport -  6.420 s
+[2016.04.17-10.09.43:457][481]LogStats:             FDebug::EnsureFailed -  6.468 s
+[2016.04.17-10.09.52:457][540]BlueprintLog: New page: Compile AimIndicator
+[2016.04.17-10.09.52:622][540]BlueprintEditorCompileResults: Info [1225.44] Compile of AimIndicator successful! [in 165 ms]
+[2016.04.17-10.09.53:122][588]LogSavePackage: Save=23.86ms
+[2016.04.17-10.09.53:122][588]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimIndicator5A14F1264FF8ACF63D5DD9BF38EDE9AE.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset'
+[2016.04.17-10.09.53:124][588]LogSavePackage: Total save time: 25.91ms
+[2016.04.17-10.09.53:124][588]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset
+[2016.04.17-10.10.18:958][670]BlueprintLog: New page: Compile AimIndicator
+[2016.04.17-10.10.19:091][670]BlueprintEditorCompileResults: Info [1251.91] Compile of AimIndicator successful! [in 132 ms]
+[2016.04.17-10.10.19:519][711]LogSavePackage: Save=19.42ms
+[2016.04.17-10.10.19:519][711]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimIndicator8558C85A45325F82622133BEBEBF52CC.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset'
+[2016.04.17-10.10.19:521][711]LogSavePackage: Total save time: 31.44ms
+[2016.04.17-10.10.19:521][711]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset
+[2016.04.17-10.10.32:012][184]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.10.32:156][184]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.10.32:161][184]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.10.36:338][655]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.10.36:338][655]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.10.36:338][655]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.12.20:410][801]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.12.20:436][801]LogMaterial: 0.02 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.12.24:705][293]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.12.24:705][293]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.12.24:705][293]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.12.27:680][639]LogTexture:Display: Building textures: T_1x1_Grid (AutoDXT)
+[2016.04.17-10.12.28:032][639]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.17-10.12.28:164][639]LogTexture:Display: Building textures: DebugNumberPeriod (AutoDXT)
+[2016.04.17-10.12.28:176][639]LogTexture:Display: Building textures: DebugNumberStrip (AutoDXT)
+[2016.04.17-10.12.28:226][639]LogMaterial: Uniform references updated for custom material expression TemporalAA SampleID.
+[2016.04.17-10.12.28:361][639]LogTexture:Display: Building textures: CASC_ModuleEnab_2 (DXT1)
+[2016.04.17-10.12.28:435][639]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Intensity.
+[2016.04.17-10.12.28:440][639]LogMaterial: Uniform references updated for custom material expression Ambient Cubemap Tint.
+[2016.04.17-10.12.31:490][988]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.12.31:495][988]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.12.31:516][988]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.12.31:521][988]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.12.36:479][557]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.12.36:479][557]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.12.36:479][557]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.12.44:556][520]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.12.44:561][520]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.12.44:564][520]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.12.44:569][520]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.12.48:148][934]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.12.48:148][934]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.12.48:148][934]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.13.06:992][187]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.13.06:997][187]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.13.09:369][462]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.13.09:374][462]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.13.13:667][959]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.13.13:667][959]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.13.13:667][959]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.13.14:520][ 59]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.13.14:525][ 59]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.13.14:544][ 59]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.13.14:550][ 59]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.13.19:011][573]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.13.19:011][573]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.13.19:011][573]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.13.22:778][ 21]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.13.22:785][ 21]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.13.22:787][ 21]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.13.22:792][ 21]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.13.27:260][537]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.13.27:260][537]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.13.27:260][537]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.14.03:552][877]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.14.03:556][877]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.14.03:559][877]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.14.03:564][877]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.14.06:838][257]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.14.06:843][257]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.14.11:109][750]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.14.11:109][750]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.14.11:109][750]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.14.34:654][563]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.14.34:659][563]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.14.34:660][563]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.04.17-10.14.39:765][145]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.14.39:765][145]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.14.39:765][145]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.14.48:121][139]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.14.48:126][139]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.14.48:141][139]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.14.48:146][139]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.14.52:010][588]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.14.52:010][588]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.14.52:010][588]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.14.52:861][688]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.14.52:866][688]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.14.52:891][688]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.04.17-10.14.55:885][ 32]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.14.55:891][ 32]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.15.01:545][687]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2016.04.17-10.15.01:545][687]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.15.01:545][687]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.15.09:977][694]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.15.10:405][694]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.15.10:418][694]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.15.10:438][694]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.15.10:472][694]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.15.10:485][694]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.15.14:654][694]LogSavePackage: Save=12.67ms
+[2016.04.17-10.15.14:654][694]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterial9F4FE8ED4F8F3F16C4F067A67401EA6D.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.15.14:656][694]LogSavePackage: Total save time: 14.60ms
+[2016.04.17-10.15.14:656][694]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.15.14:659][694]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 103 instructions
+[2016.04.17-10.15.14:659][694]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.15.14:659][694]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.17-10.15.32:094][728]LogRenderer: Reallocating scene render targets to support 924x652 (Frame:74185).
+[2016.04.17-10.16.48:603][871]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.16.48:666][871]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.16.48:671][871]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.16.48:699][871]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.04.17-10.16.54:800][568]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 27 instructions
+[2016.04.17-10.16.54:800][568]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.16.54:800][568]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.16.59:485][123]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.16.59:490][123]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.01:836][389]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.01:841][389]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.01:843][389]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.01:849][389]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.05:982][864]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.05:987][864]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.07:901][ 84]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.07:908][ 84]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.14:680][856]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.17.14:680][856]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.17.14:680][856]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.17.20:488][550]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.20:493][550]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.20:521][550]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2016.04.17-10.17.23:121][845]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.23:126][845]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.23:168][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.04.17-10.17.23:182][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.04.17-10.17.27:700][363]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.27:709][363]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.27:735][363]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.04.17-10.17.34:573][141]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 22 instructions
+[2016.04.17-10.17.34:573][141]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.17.34:573][141]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.17.52:277][249]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.52:282][249]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.52:410][249]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.04.17-10.17.54:599][499]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.54:605][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.17.54:633][499]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.04.17-10.17.56:992][768]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.17.57:000][768]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.18.00:465][163]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.18.00:852][163]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.04.17-10.18.00:865][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.18.00:900][163]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.18.00:918][163]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.18.00:926][163]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.17-10.18.05:517][163]LogSavePackage: Save=13.23ms
+[2016.04.17-10.18.05:518][163]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterial9BF6D58A4F3607C4030876AC7B5ED1A3.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.18.05:519][163]LogSavePackage: Total save time: 25.03ms
+[2016.04.17-10.18.05:519][163]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.18.05:523][163]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 105 instructions
+[2016.04.17-10.18.05:523][163]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.18.05:523][163]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.17-10.18.37:601][874]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.18.37:667][874]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.18.37:672][874]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.18.37:697][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.04.17-10.18.37:717][874]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.04.17-10.18.42:876][467]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2016.04.17-10.18.42:876][467]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.18.42:876][467]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.18.58:311][308]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.18.58:317][308]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.03:379][888]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2016.04.17-10.19.03:379][888]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.19.03:379][888]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.19.03:941][954]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.03:947][954]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.03:990][954]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.04.17-10.19.08:974][523]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.08:979][523]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.09:023][523]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2016.04.17-10.19.11:429][801]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.11:436][801]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.11:465][801]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_3, compiling. 
+[2016.04.17-10.19.14:705][176]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.14:710][176]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.20:397][832]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2016.04.17-10.19.20:397][832]MaterialEditorStats: Info Vertex shader: 86 instructions
+[2016.04.17-10.19.20:397][832]MaterialEditorStats: Info Texture samplers: 0/16
+[2016.04.17-10.19.21:660][982]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.21:688][982]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.21:693][982]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.24:545][308]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.24:562][308]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.31:237][ 66]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.31:269][ 66]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.31:276][ 66]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.35:055][499]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.35:069][499]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.35:077][499]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.40:470][115]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.40:494][115]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.40:500][115]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.42:727][361]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.42:734][361]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.43:179][412]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.43:185][412]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.45:937][723]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.19.46:339][723]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.19.46:356][723]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.19.46:373][723]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.19.46:407][723]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.19.46:417][723]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.17-10.19.54:566][723]LogSavePackage: Save=11.59ms
+[2016.04.17-10.19.54:566][723]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterial41EF55244FE61C7883C5418C7CB75192.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.19.54:568][723]LogSavePackage: Total save time: 20.21ms
+[2016.04.17-10.19.54:568][723]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.19.54:571][723]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 98 instructions
+[2016.04.17-10.19.54:571][723]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 134 instructions
+[2016.04.17-10.19.54:571][723]MaterialEditorStats: Info Vertex shader: 125 instructions
+[2016.04.17-10.19.54:571][723]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.17-10.19.59:331][293]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.19.59:361][293]LogSavePackage: Save=5.03ms
+[2016.04.17-10.19.59:361][293]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterialF5AD3E4B42ED0D764AACCCAD51E37FEA.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.19.59:362][293]LogSavePackage: Total save time: 10.14ms
+[2016.04.17-10.19.59:362][293]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.20.04:007][842]LogSavePackage: Save=10.65ms
+[2016.04.17-10.20.04:007][842]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewInstanceB9EBAA524796F7CA29D705B0AABAC93B.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewInstance.uasset'
+[2016.04.17-10.20.04:010][842]LogSavePackage: Total save time: 13.34ms
+[2016.04.17-10.20.04:010][842]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewInstance.uasset
+[2016.04.17-10.20.14:611][107]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.20.14:639][107]LogSavePackage: Save=4.82ms
+[2016.04.17-10.20.14:639][107]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterial5572AC784F43F93F2E485E92B7CA2F9F.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.20.14:640][107]LogSavePackage: Total save time: 9.85ms
+[2016.04.17-10.20.14:640][107]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.20.48:746][ 46]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.20.48:759][ 46]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.20.48:764][ 46]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.20.51:197][318]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.20.51:202][318]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.20.53:419][566]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.20.53:434][566]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.20.53:692][594]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.20.53:701][594]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.20.55:299][772]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.20.55:730][772]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.20.55:756][772]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.20.55:779][772]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.20.55:825][772]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.20.55:839][772]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.17-10.21.03:228][772]LogSavePackage: Save=11.72ms
+[2016.04.17-10.21.03:228][772]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterial80C2B6734A3B23EDA7792D99D2869EDF.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.21.03:230][772]LogSavePackage: Total save time: 17.74ms
+[2016.04.17-10.21.03:230][772]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.21.03:233][772]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 110 instructions
+[2016.04.17-10.21.03:233][772]MaterialEditorStats: Info Vertex shader: 90 instructions
+[2016.04.17-10.21.03:233][772]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.04.17-10.21.44:240][132]LogSavePackage: Save=105.97ms
+[2016.04.17-10.21.44:240][132]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevel_Auto29C82B8004852FB8CF6481780DB3336FE.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Autosaves/Game/Levels/MainLevel_Auto2.umap'
+[2016.04.17-10.21.44:241][132]LogSavePackage: Total save time: 118.60ms
+[2016.04.17-10.21.44:241][132]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Autosaves/Game/Levels/MainLevel_Auto2.umap
+[2016.04.17-10.21.44:243][132]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLevel' took 0.165
+[2016.04.17-10.21.44:243][132]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.165
+[2016.04.17-10.21.44:249][132]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/Player/AimPreviewInstance] ([1] browsable assets)...
+[2016.04.17-10.21.44:261][132]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/Blueprints/Player/AimPreviewInstance.AimPreviewInstance]
+[2016.04.17-10.21.44:261][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/Player/AimPreviewInstance]
+[2016.04.17-10.21.44:281][132]LogSavePackage: Save=10.34ms
+[2016.04.17-10.21.44:281][132]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewInstance_Auto28687FBFC42FD7DB658F8E7AE8F74B842.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Autosaves/Game/Blueprints/Player/AimPreviewInstance_Auto2.uasset'
+[2016.04.17-10.21.44:282][132]LogSavePackage: Total save time: 19.91ms
+[2016.04.17-10.21.44:282][132]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Autosaves/Game/Blueprints/Player/AimPreviewInstance_Auto2.uasset
+[2016.04.17-10.21.44:282][132]LogFileHelpers: Auto-saving content packages took 0.038
+[2016.04.17-10.24.43:178][542]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.24.43:193][542]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.24.43:199][542]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.24.45:369][783]LogMaterialEditor: Applying material AimPreviewMaterial
+[2016.04.17-10.24.45:781][783]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.24.45:797][783]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.24.45:836][783]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.24.45:868][783]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.24.45:879][783]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.17-10.24.46:636][869]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.24.54:766][869]LogSavePackage: Save=12.38ms
+[2016.04.17-10.24.54:766][869]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterial64D0791249EC13CE654506B3F5BD1480.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.24.54:768][869]LogSavePackage: Total save time: 24.47ms
+[2016.04.17-10.24.54:768][869]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.24.54:771][869]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 97 instructions
+[2016.04.17-10.24.54:771][869]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 133 instructions
+[2016.04.17-10.24.54:771][869]MaterialEditorStats: Info Vertex shader: 125 instructions
+[2016.04.17-10.24.54:771][869]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.17-10.25.00:842][592]LogSavePackage: Save=4.03ms
+[2016.04.17-10.25.00:842][592]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewInstance5F43C0D944D3468A2EA86D9F5BBC6EA3.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewInstance.uasset'
+[2016.04.17-10.25.00:847][592]LogSavePackage: Total save time: 13.03ms
+[2016.04.17-10.25.00:847][592]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewInstance.uasset
+[2016.04.17-10.26.16:133][610]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.26.16:133][610]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.17-10.26.16:133][610]LogMaterial:Warning: 	(Node Sine) Missing Sine input
+[2016.04.17-10.26.16:133][610]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.26.16:133][610]MaterialEditorStats:Error: Error [SM5] (Node Sine) Missing Sine input
+[2016.04.17-10.26.19:413][997]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.26.19:413][997]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.17-10.26.19:413][997]LogMaterial:Warning: 	(Node Sine) Missing Sine input
+[2016.04.17-10.26.19:413][997]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.26.19:415][997]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.26.19:416][997]LogMaterial:Warning: Failed to compile Material /Engine/Transient.PreviewMaterial_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2016.04.17-10.26.19:416][997]LogMaterial:Warning: 	(Node Sine) Missing Sine input
+[2016.04.17-10.26.19:416][997]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.26.23:089][435]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.26.23:095][435]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.26.27:905][978]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.26.27:911][978]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.26.27:913][978]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.26.27:919][978]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.26.32:670][527]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.26.32:677][527]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.26.42:406][653]LogMaterialEditor: Applying material AimPreviewMaterial
+[2016.04.17-10.26.42:814][653]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.26.42:831][653]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.26.42:856][653]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.26.42:884][653]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.26.42:895][653]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.17-10.26.43:289][698]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.26.52:081][698]LogSavePackage: Save=11.93ms
+[2016.04.17-10.26.52:081][698]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterial6428CA114038D2E88E1B16985B919A40.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.26.52:083][698]LogSavePackage: Total save time: 20.75ms
+[2016.04.17-10.26.52:083][698]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.26.52:086][698]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 98 instructions
+[2016.04.17-10.26.52:086][698]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 134 instructions
+[2016.04.17-10.26.52:086][698]MaterialEditorStats: Info Vertex shader: 125 instructions
+[2016.04.17-10.26.52:086][698]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.17-10.26.58:405][452]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.26.58:413][452]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.27.00:013][634]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.27.00:423][634]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.27.00:440][634]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.27.00:467][634]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.27.00:484][634]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.27.00:495][634]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.17-10.27.09:038][634]LogSavePackage: Save=11.52ms
+[2016.04.17-10.27.09:038][634]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterial4F42220F4F4F13A3C24620AE013730BB.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.27.09:040][634]LogSavePackage: Total save time: 17.72ms
+[2016.04.17-10.27.09:040][634]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.27.09:044][634]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 98 instructions
+[2016.04.17-10.27.09:044][634]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 134 instructions
+[2016.04.17-10.27.09:044][634]MaterialEditorStats: Info Vertex shader: 125 instructions
+[2016.04.17-10.27.09:044][634]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.17-10.29.23:396][519]LogSavePackage: Save=11.33ms
+[2016.04.17-10.29.23:396][519]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewInstance158AD32847975B1AD20D1F9FECC086CD.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewInstance.uasset'
+[2016.04.17-10.29.23:398][519]LogSavePackage: Total save time: 23.87ms
+[2016.04.17-10.29.23:398][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewInstance.uasset
+[2016.04.17-10.29.46:483][237]BlueprintLog: New page: Compile AimIndicator
+[2016.04.17-10.29.46:579][237]BlueprintEditorCompileResults: Info [2419.40] Compile of AimIndicator successful! [in 96 ms]
+[2016.04.17-10.29.46:977][274]LogSavePackage: Save=19.91ms
+[2016.04.17-10.29.46:977][274]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimIndicator360AABD245C929DE365A9DB3234F6343.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset'
+[2016.04.17-10.29.46:979][274]LogSavePackage: Total save time: 30.57ms
+[2016.04.17-10.29.46:979][274]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset
+[2016.04.17-10.30.19:880][186]LogSavePackage: Save=13.94ms
+[2016.04.17-10.30.19:880][186]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimIndicatorEB8F6E5F4AE4C13CD3537EA9E16892D9.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset'
+[2016.04.17-10.30.19:881][186]LogSavePackage: Total save time: 19.32ms
+[2016.04.17-10.30.19:881][186]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset
+[2016.04.17-10.33.32:159][379]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/MainLevel' took 0.031
+[2016.04.17-10.33.32:166][379]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FromPrototype/Blueprints/PlayerDummy] ([1] browsable assets)...
+[2016.04.17-10.33.32:166][379]OBJ SavePackage: Finished generating thumbnails for package [/Game/FromPrototype/Blueprints/PlayerDummy]
+[2016.04.17-10.33.32:489][379]LogSavePackage: Save=306.28ms
+[2016.04.17-10.33.32:489][379]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy_Auto304DD7F0C485D87C67F4477BBFA628726.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Autosaves/Game/FromPrototype/Blueprints/PlayerDummy_Auto3.uasset'
+[2016.04.17-10.33.32:491][379]LogSavePackage: Total save time: 321.71ms
+[2016.04.17-10.33.32:491][379]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Autosaves/Game/FromPrototype/Blueprints/PlayerDummy_Auto3.uasset
+[2016.04.17-10.33.32:491][379]LogFileHelpers: Auto-saving content packages took 0.331
+[2016.04.17-10.39.14:052][861]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.39.14:264][861]BlueprintEditorCompileResults: Info [2987.08] Compile of PlayerDummy successful! [in 212 ms]
+[2016.04.17-10.39.14:783][883]LogSavePackage: Save=258.35ms
+[2016.04.17-10.39.14:783][883]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy686AC2A6445CA8426BE3589CDCFE59BE.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.39.14:786][883]LogSavePackage: Total save time: 272.94ms
+[2016.04.17-10.39.14:786][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.39.42:778][235]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.39.42:784][235]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.39.44:574][438]LogMaterialEditor: Applying material AimPreviewMaterial
+[2016.04.17-10.39.44:998][438]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2016.04.17-10.39.45:013][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.04.17-10.39.45:051][438]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.39.45:064][438]LogMaterial: Missing cached shader map for material AimPreviewMaterial, compiling. 
+[2016.04.17-10.39.45:072][438]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 1 instances, 0 with static permutations.
+[2016.04.17-10.39.45:777][519]LogMaterialEditor: Saving and Compiling material AimPreviewMaterial
+[2016.04.17-10.39.55:011][519]LogSavePackage: Save=11.67ms
+[2016.04.17-10.39.55:011][519]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewMaterialB86256BB444007CF4187249546544E76.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset'
+[2016.04.17-10.39.55:014][519]LogSavePackage: Total save time: 21.98ms
+[2016.04.17-10.39.55:014][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewMaterial.uasset
+[2016.04.17-10.39.55:018][519]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 98 instructions
+[2016.04.17-10.39.55:018][519]MaterialEditorStats: Info Base pass shader for self shadowed translucency: 134 instructions
+[2016.04.17-10.39.55:018][519]MaterialEditorStats: Info Vertex shader: 125 instructions
+[2016.04.17-10.39.55:018][519]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.04.17-10.40.51:784][287]LogSavePackage: Save=10.57ms
+[2016.04.17-10.40.51:784][287]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimPreviewInstance518996784581C5DA73D287996565C1CA.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewInstance.uasset'
+[2016.04.17-10.40.51:786][287]LogSavePackage: Total save time: 21.77ms
+[2016.04.17-10.40.51:786][287]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimPreviewInstance.uasset
+[2016.04.17-10.43.43:482][597]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.43.43:696][597]BlueprintEditorCompileResults: Info [3256.51] Compile of PlayerDummy successful! [in 213 ms]
+[2016.04.17-10.43.44:367][637]LogSavePackage: Save=255.30ms
+[2016.04.17-10.43.44:367][637]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy2A9F4E854A2B3574E02D3C9D5FFFBC3E.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.43.44:369][637]LogSavePackage: Total save time: 264.81ms
+[2016.04.17-10.43.44:369][637]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.44.44:533][803]LogEnum:Warning: In asset 'None', there is an enum property of type 'EActivePower' with an invalid value of 'EActivePower::NewEnumerator5'
+[2016.04.17-10.45.03:212][ 35]LogSavePackage: Save=5.91ms
+[2016.04.17-10.45.03:212][ 35]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/EActivePower262E7E994D3A2663164555AA4CAF1ED2.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/EActivePower.uasset'
+[2016.04.17-10.45.03:214][ 35]LogSavePackage: Total save time: 14.02ms
+[2016.04.17-10.45.03:214][ 35]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/EActivePower.uasset
+[2016.04.17-10.45.05:108][259]LogSavePackage: Save=3.37ms
+[2016.04.17-10.45.05:108][259]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/EActivePower92BC4FFA4C59110B26900D8C5E204AAD.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/EActivePower.uasset'
+[2016.04.17-10.45.05:109][259]LogSavePackage: Total save time: 8.95ms
+[2016.04.17-10.45.05:109][259]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/EActivePower.uasset
+[2016.04.17-10.45.46:973][231]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.45.47:179][231]BlueprintEditorCompileResults: Info [3380.00] Compile of PlayerDummy successful! [in 205 ms]
+[2016.04.17-10.45.47:748][259]LogSavePackage: Save=265.29ms
+[2016.04.17-10.45.47:748][259]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy43642C744D13082BC9C991B728184DA3.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.45.47:751][259]LogSavePackage: Total save time: 280.02ms
+[2016.04.17-10.45.47:751][259]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.45.55:634][183]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.45.55:984][183]BlueprintEditorCompileResults: Info [3388.80] Compile of PlayerDummy successful! [in 349 ms]
+[2016.04.17-10.45.56:394][192]LogSavePackage: Save=254.62ms
+[2016.04.17-10.45.56:394][192]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyCDA4ACA74CD7DE7C1A0AF4944D7996B6.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.45.56:397][192]LogSavePackage: Total save time: 262.34ms
+[2016.04.17-10.45.56:397][192]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.46.54:918][114]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.46.55:133][114]BlueprintEditorCompileResults: Info [3447.95] Compile of PlayerDummy successful! [in 215 ms]
+[2016.04.17-10.46.55:729][143]LogSavePackage: Save=272.43ms
+[2016.04.17-10.46.55:729][143]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy0D22E207467B52BA7A9F14B150F37954.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.46.55:732][143]LogSavePackage: Total save time: 280.27ms
+[2016.04.17-10.46.55:732][143]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.47.13:237][171]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.47.13:617][171]BlueprintEditorCompileResults: Info [3466.44] Compile of PlayerDummy successful! [in 380 ms]
+[2016.04.17-10.47.19:565][869]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.47.19:932][869]BlueprintEditorCompileResults: Info [3472.75] Compile of PlayerDummy successful! [in 366 ms]
+[2016.04.17-10.47.20:353][877]LogSavePackage: Save=269.92ms
+[2016.04.17-10.47.20:353][877]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy5C8624814084BBDA89836DB2EB6EE761.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.47.20:356][877]LogSavePackage: Total save time: 277.00ms
+[2016.04.17-10.47.20:356][877]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.47.37:473][886]LogClass:Warning: Type mismatch in PowerRange of SKEL_PlayerDummy_C - Previous (StructProperty) Current(FloatProperty) for package:  FObjectReader
+[2016.04.17-10.47.39:252][ 85]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.47.39:635][ 85]BlueprintEditorCompileResults: Info [3492.45] Compile of PlayerDummy successful! [in 382 ms]
+[2016.04.17-10.48.46:650][986]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.48.47:056][986]BlueprintEditorCompileResults: Info [3559.87] Compile of PlayerDummy successful! [in 405 ms]
+[2016.04.17-10.49.03:331][888]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2016.04.17-10.49.25:751][551]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.49.25:859][551]LogBlueprint:Error: [compiler PlayerDummy] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.04.17-10.49.25:869][551]LogBlueprint:Error: [compiler PlayerDummy] Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.04.17-10.49.26:118][551]LogBlueprint:Warning: [compiler PlayerDummy] Warning [3598.94] Compile of PlayerDummy failed. 2 Fatal Issue(s) 0 Warning(s) [in 366 ms]
+[2016.04.17-10.49.26:118][551]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.04.17-10.49.26:118][551]BlueprintEditorCompileResults:Error: Error The current value of the ' Spawn Transform ' pin is invalid: 'Spawn Transform' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2016.04.17-10.49.26:118][551]BlueprintEditorCompileResults:Warning: Warning [3598.94] Compile of PlayerDummy failed. 2 Fatal Issue(s) 0 Warning(s) [in 366 ms]
+[2016.04.17-10.49.26:531][556]LogSavePackage: Save=278.85ms
+[2016.04.17-10.49.26:531][556]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy649D1AD94582314FF1921FA9E1F06DCA.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.49.26:534][556]LogSavePackage: Total save time: 289.64ms
+[2016.04.17-10.49.26:534][556]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.49.45:167][728]BlueprintLog: New page: Compile AimIndicator
+[2016.04.17-10.49.45:299][728]BlueprintEditorCompileResults: Info [3618.12] Compile of AimIndicator successful! [in 132 ms]
+[2016.04.17-10.49.45:727][768]LogSavePackage: Save=18.73ms
+[2016.04.17-10.49.45:727][768]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/AimIndicator1E3667D0459EBE8166BB97BC70359851.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset'
+[2016.04.17-10.49.45:729][768]LogSavePackage: Total save time: 29.33ms
+[2016.04.17-10.49.45:729][768]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Blueprints/Player/AimIndicator.uasset
+[2016.04.17-10.51.00:396][682]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.51.00:624][682]BlueprintEditorCompileResults: Info [3693.44] Compile of PlayerDummy successful! [in 227 ms]
+[2016.04.17-10.51.01:332][723]LogSavePackage: Save=286.85ms
+[2016.04.17-10.51.01:332][723]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy7482B3B74FAE561499F7F2A0E156AF3B.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.51.01:335][723]LogSavePackage: Total save time: 300.57ms
+[2016.04.17-10.51.01:335][723]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.56.07:417][817]LogTemp: Dropped MinSlopeSimilarity on Category Input
+[2016.04.17-10.57.05:744][717]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.57.06:185][717]BlueprintEditorCompileResults: Info [4059.00] Compile of PlayerDummy successful! [in 442 ms]
+[2016.04.17-10.57.06:626][721]LogSavePackage: Save=313.36ms
+[2016.04.17-10.57.06:626][721]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyD21B0CA14F68747A8CA6EFBCCDE66DF5.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.57.06:628][721]LogSavePackage: Total save time: 328.56ms
+[2016.04.17-10.57.06:628][721]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.57.47:543][546]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.57.47:985][546]BlueprintEditorCompileResults: Info [4100.80] Compile of PlayerDummy successful! [in 442 ms]
+[2016.04.17-10.57.48:525][562]LogSavePackage: Save=314.33ms
+[2016.04.17-10.57.48:525][562]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyD603A0724089A71E05CFBC93FF806CB9.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.57.48:527][562]LogSavePackage: Total save time: 321.78ms
+[2016.04.17-10.57.48:527][562]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.58.10:375][152]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.58.10:628][152]BlueprintEditorCompileResults: Info [4123.45] Compile of PlayerDummy successful! [in 252 ms]
+[2016.04.17-10.58.11:245][177]LogSavePackage: Save=324.46ms
+[2016.04.17-10.58.11:245][177]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy988786784A64EDA7C8A445A1AF86E408.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.58.11:248][177]LogSavePackage: Total save time: 333.12ms
+[2016.04.17-10.58.11:248][177]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.59.01:921][175]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.59.02:180][175]BlueprintEditorCompileResults: Info [4175.00] Compile of PlayerDummy successful! [in 259 ms]
+[2016.04.17-10.59.03:078][234]LogSavePackage: Save=319.35ms
+[2016.04.17-10.59.03:078][234]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyAD1896ED4DC7632C74A8628CCD11E45A.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.59.03:080][234]LogSavePackage: Total save time: 328.54ms
+[2016.04.17-10.59.03:080][234]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.59.24:819][802]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-10.59.25:069][802]BlueprintEditorCompileResults: Info [4197.89] Compile of PlayerDummy successful! [in 250 ms]
+[2016.04.17-10.59.25:724][831]LogSavePackage: Save=325.35ms
+[2016.04.17-10.59.25:725][831]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy9D8A51194E39F8DEB3DA78B38844E7D3.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.59.25:750][831]LogSavePackage: Total save time: 356.27ms
+[2016.04.17-10.59.25:750][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.59.34:247][802]LogSavePackage: Save=317.03ms
+[2016.04.17-10.59.34:247][802]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyDAF62896452E076640534EAD330C8E4E.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-10.59.34:251][802]LogSavePackage: Total save time: 325.39ms
+[2016.04.17-10.59.34:251][802]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-10.59.45:362][ 85]LogSavePackage: Save=128.09ms
+[2016.04.17-10.59.45:362][ 85]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevelF8D985784B07DBA88D218F85786755D0.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
+[2016.04.17-10.59.45:368][ 85]LogSavePackage: Total save time: 147.12ms
+[2016.04.17-10.59.45:368][ 85]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
+[2016.04.17-10.59.51:699][834]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-10.59.51:699][834]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.17-10.59.51:700][834]LogPlayLevel: [PlayLevel] Compiling WSMacroLib before play...
+[2016.04.17-10.59.51:843][834]LogPlayLevel: PlayLevel: Blueprint regeneration took 143 ms (2 blueprints)
+[2016.04.17-10.59.51:849][834]LogPlayLevel: [PlayLevel] Compiling PlayerDummy before play...
+[2016.04.17-10.59.52:036][834]LogPlayLevel: PlayLevel: Blueprint regeneration took 337 ms (4 blueprints)
+[2016.04.17-10.59.52:037][834]LogPlayLevel: [PlayLevel] Compiling DeformingWorldSegment before play...
+[2016.04.17-10.59.52:135][834]LogPlayLevel: PlayLevel: Blueprint regeneration took 436 ms (4 blueprints)
+[2016.04.17-10.59.52:136][834]LogPlayLevel: [PlayLevel] Compiling WorldShiftManager before play...
+[2016.04.17-10.59.52:219][834]LogPlayLevel: PlayLevel: Blueprint regeneration took 519 ms (4 blueprints)
+[2016.04.17-10.59.52:342][834]PIE: New page: PIE session: MainLevel (17 Apr 2016 11:59:52)
+[2016.04.17-10.59.52:342][834]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.17-10.59.52:388][834]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046129s)
+[2016.04.17-10.59.52:389][834]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.17-10.59.52:389][834]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2016.04.17-10.59.52:389][834]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.047114s)
+[2016.04.17-10.59.52:416][834]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-10.59.52:429][834]LogInit: FAudioDevice initialized.
+[2016.04.17-10.59.52:574][834]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.17-10.59.52:576][834]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.17-11.59.52
+[2016.04.17-10.59.52:577][834]LogWorld: Bringing up level for play took: 0.001809
+[2016.04.17-10.59.52:583][834]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 9 classes and 0 folders.
+[2016.04.17-10.59.52:588][834]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 1.429
+[2016.04.17-10.59.52:588][834]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-10.59.52:591][835]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:167597).
+[2016.04.17-10.59.52:614][836]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 613/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.01.28:546][181]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.01.28:678][181]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.01.34:190][831]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 803/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.02.55:210][303]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-11.02.55:412][303]BlueprintEditorCompileResults: Info [4408.23] Compile of PlayerDummy successful! [in 201 ms]
+[2016.04.17-11.02.56:192][348]LogSavePackage: Save=310.79ms
+[2016.04.17-11.02.56:192][348]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyB32C40BC4F0BCCA6FF7D9692CC6064F1.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-11.02.56:195][348]LogSavePackage: Total save time: 327.86ms
+[2016.04.17-11.02.56:195][348]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-11.03.05:201][424]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 803/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.03.06:448][557]LogSavePackage: Save=77.91ms
+[2016.04.17-11.03.06:448][557]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevelA135F67D49792421FDC9BDBDB61ACB22.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
+[2016.04.17-11.03.06:450][557]LogSavePackage: Total save time: 85.40ms
+[2016.04.17-11.03.06:450][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
+[2016.04.17-11.03.06:503][559]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 803/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.03.07:460][670]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.03.07:460][670]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-11.03.07:460][670]PIE: New page: PIE session: MainLevel (17 Apr 2016 12:03:07)
+[2016.04.17-11.03.07:460][670]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.17-11.03.07:465][670]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004474s)
+[2016.04.17-11.03.07:466][670]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.17-11.03.07:466][670]LogPlayLevel: PIE: World Init took: (0.000814s)
+[2016.04.17-11.03.07:466][670]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005465s)
+[2016.04.17-11.03.07:496][670]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-11.03.07:507][670]LogInit: FAudioDevice initialized.
+[2016.04.17-11.03.07:608][670]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.17-11.03.07:610][670]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.17-12.03.07
+[2016.04.17-11.03.07:610][670]LogWorld: Bringing up level for play took: 0.001744
+[2016.04.17-11.03.07:617][670]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 0.458
+[2016.04.17-11.03.07:617][670]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.03.07:640][672]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 837/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.03.41:040][627]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.03.41:183][627]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.03.43:608][908]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.05.06:546][795]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-11.05.06:746][795]BlueprintEditorCompileResults: Info [4539.56] Compile of PlayerDummy successful! [in 199 ms]
+[2016.04.17-11.05.07:510][841]LogSavePackage: Save=304.86ms
+[2016.04.17-11.05.07:510][841]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy18171BA046C33F951BA28BA7733D95A7.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-11.05.07:512][841]LogSavePackage: Total save time: 314.64ms
+[2016.04.17-11.05.07:512][841]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-11.05.08:502][958]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.05.09:445][ 50]LogSavePackage: Save=93.19ms
+[2016.04.17-11.05.09:445][ 50]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevel16351A294E677A4470D9DCA052E9E8CC.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
+[2016.04.17-11.05.09:448][ 50]LogSavePackage: Total save time: 117.70ms
+[2016.04.17-11.05.09:448][ 50]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
+[2016.04.17-11.05.09:492][ 52]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.05.10:124][124]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.05.10:124][124]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-11.05.10:124][124]PIE: New page: PIE session: MainLevel (17 Apr 2016 12:05:10)
+[2016.04.17-11.05.10:124][124]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.17-11.05.10:128][124]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004442s)
+[2016.04.17-11.05.10:129][124]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.17-11.05.10:129][124]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2016.04.17-11.05.10:129][124]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005248s)
+[2016.04.17-11.05.10:162][124]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-11.05.10:173][124]LogInit: FAudioDevice initialized.
+[2016.04.17-11.05.10:272][124]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.17-11.05.10:274][124]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.17-12.05.10
+[2016.04.17-11.05.10:274][124]LogWorld: Bringing up level for play took: 0.001791
+[2016.04.17-11.05.10:279][124]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 1.12
+[2016.04.17-11.05.10:279][124]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.05.10:300][126]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 876/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.05.36:700][156]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.05.36:843][156]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.05.38:139][301]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.07.14:887][799]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-11.07.15:081][799]BlueprintEditorCompileResults: Info [4667.90] Compile of PlayerDummy successful! [in 194 ms]
+[2016.04.17-11.07.15:964][856]LogSavePackage: Save=327.75ms
+[2016.04.17-11.07.15:964][856]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyAD3282E340372255BA2F7F8D04D17757.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-11.07.15:966][856]LogSavePackage: Total save time: 337.80ms
+[2016.04.17-11.07.15:966][856]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-11.07.33:552][963]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.07.34:239][ 29]LogSavePackage: Save=77.92ms
+[2016.04.17-11.07.34:239][ 29]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevel70661F01465B3E277811B28AD48ABA14.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
+[2016.04.17-11.07.34:242][ 29]LogSavePackage: Total save time: 85.92ms
+[2016.04.17-11.07.34:242][ 29]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
+[2016.04.17-11.07.34:299][ 31]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.07.35:219][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.07.35:219][137]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-11.07.35:219][137]PIE: New page: PIE session: MainLevel (17 Apr 2016 12:07:35)
+[2016.04.17-11.07.35:219][137]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.17-11.07.35:274][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.054361s)
+[2016.04.17-11.07.35:274][137]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.17-11.07.35:274][137]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2016.04.17-11.07.35:274][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.055196s)
+[2016.04.17-11.07.35:304][137]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-11.07.35:315][137]LogInit: FAudioDevice initialized.
+[2016.04.17-11.07.35:416][137]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.17-11.07.35:419][137]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.17-12.07.35
+[2016.04.17-11.07.35:419][137]LogWorld: Bringing up level for play took: 0.001770
+[2016.04.17-11.07.35:426][137]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 0.267
+[2016.04.17-11.07.35:427][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.07.35:450][139]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 876/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.08.09:903][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.08.10:059][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.08.14:929][253]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.08.21:102][984]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.08.24:017][314]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.27:319][888]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-11.10.27:513][888]BlueprintEditorCompileResults: Info [4860.33] Compile of PlayerDummy successful! [in 193 ms]
+[2016.04.17-11.10.28:302][934]LogSavePackage: Save=314.24ms
+[2016.04.17-11.10.28:302][934]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy26B2C1A84B8C37C44A08F2AA9437B90E.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-11.10.28:338][934]LogSavePackage: Total save time: 363.53ms
+[2016.04.17-11.10.28:338][934]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-11.10.28:764][984]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.28:884][996]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.29:710][ 73]LogSavePackage: Save=77.17ms
+[2016.04.17-11.10.29:710][ 73]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevel22C5F39E447106570319EDB3998FB66D.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
+[2016.04.17-11.10.29:712][ 73]LogSavePackage: Total save time: 137.06ms
+[2016.04.17-11.10.29:712][ 73]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
+[2016.04.17-11.10.29:781][ 75]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.31:909][288]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.33:230][438]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.34:140][542]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.35:195][658]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.40:777][302]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.44:690][764]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.10.45:652][873]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.11.00:233][605]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.11.01:132][711]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.12.26:662][857]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-11.12.26:861][857]BlueprintEditorCompileResults: Info [4979.68] Compile of PlayerDummy successful! [in 198 ms]
+[2016.04.17-11.12.28:091][955]LogSavePackage: Save=323.59ms
+[2016.04.17-11.12.28:091][955]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyCAFC6DE74A838F2599015490F2208497.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-11.12.28:093][955]LogSavePackage: Total save time: 334.04ms
+[2016.04.17-11.12.28:093][955]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-11.12.28:927][ 53]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.12.30:138][194]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.12.30:138][194]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-11.12.30:139][194]PIE: New page: PIE session: MainLevel (17 Apr 2016 12:12:30)
+[2016.04.17-11.12.30:139][194]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.17-11.12.30:195][194]LogPlayLevel: PIE: StaticDuplicateObject took: (0.056714s)
+[2016.04.17-11.12.30:196][194]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.17-11.12.30:196][194]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2016.04.17-11.12.30:196][194]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.057629s)
+[2016.04.17-11.12.30:225][194]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-11.12.30:236][194]LogInit: FAudioDevice initialized.
+[2016.04.17-11.12.30:338][194]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.17-11.12.30:340][194]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.17-12.12.30
+[2016.04.17-11.12.30:340][194]LogWorld: Bringing up level for play took: 0.001623
+[2016.04.17-11.12.30:347][194]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 1.187
+[2016.04.17-11.12.30:347][194]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.12.30:376][196]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 876/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.12.55:896][302]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.12.56:040][302]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.12.57:284][440]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.13.01:937][993]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.17-11.13.02:126][993]BlueprintEditorCompileResults: Info [5014.94] Compile of PlayerDummy successful! [in 188 ms]
+[2016.04.17-11.13.02:969][ 44]LogSavePackage: Save=331.89ms
+[2016.04.17-11.13.02:969][ 44]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyFD03B30D4C958C9AE41AFCBF3763BA62.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.17-11.13.02:971][ 44]LogSavePackage: Total save time: 339.95ms
+[2016.04.17-11.13.02:971][ 44]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.17-11.13.03:353][ 88]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.13.04:245][191]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.13.04:245][191]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.17-11.13.04:245][191]PIE: New page: PIE session: MainLevel (17 Apr 2016 12:13:04)
+[2016.04.17-11.13.04:245][191]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.17-11.13.04:250][191]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004666s)
+[2016.04.17-11.13.04:250][191]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.17-11.13.04:250][191]LogPlayLevel: PIE: World Init took: (0.000585s)
+[2016.04.17-11.13.04:250][191]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.005461s)
+[2016.04.17-11.13.04:281][191]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.17-11.13.04:290][191]LogInit: FAudioDevice initialized.
+[2016.04.17-11.13.04:390][191]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.17-11.13.04:392][191]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.17-12.13.04
+[2016.04.17-11.13.04:393][191]LogWorld: Bringing up level for play took: 0.001908
+[2016.04.17-11.13.04:401][191]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel -0.759
+[2016.04.17-11.13.04:401][191]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.13.04:420][193]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 876/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.13.57:362][ 57]LogBlueprintUserMessages: [PlayerDummy_657] WorldShifting!
+[2016.04.17-11.14.06:333][464]LogBlueprintUserMessages: [PlayerDummy_657] Finished WorldShifting!
+[2016.04.17-11.14.17:749][976]LogBlueprintUserMessages: [PlayerDummy_657] WorldUnshifting!
+[2016.04.17-11.14.26:737][622]LogBlueprintUserMessages: [PlayerDummy_657] Finished WorldShifting!
+[2016.04.17-11.14.41:707][513]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.41:729][514]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.41:754][515]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.41:774][516]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.41:796][517]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.41:818][518]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.41:840][519]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.44:812][668]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.44:834][669]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.44:857][670]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.44:879][671]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.44:901][672]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.44:924][673]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.44:946][674]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.44:968][675]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.55:881][307]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.55:903][308]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.55:926][309]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.55:948][310]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.55:970][311]LogBlueprintUserMessages: [PlayerDummy_657] Can't Shift here!
+[2016.04.17-11.14.55:993][312]LogBlueprintUserMessages: [PlayerDummy_657] WorldShifting!
+[2016.04.17-11.15.04:973][718]LogBlueprintUserMessages: [PlayerDummy_657] Finished WorldShifting!
+[2016.04.17-11.15.09:609][963]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.15.09:757][963]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.17-11.15.11:881][198]LogSavePackage: Save=79.54ms
+[2016.04.17-11.15.11:881][198]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevel90230C1846A57321E3D4319F5D1EF6D3.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
+[2016.04.17-11.15.11:883][198]LogSavePackage: Total save time: 90.26ms
+[2016.04.17-11.15.11:883][198]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
+[2016.04.17-11.15.11:923][200]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 842/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.17-11.15.15:151][570]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2016.04.17-11.15.15:216][570]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.17-11.15.15:514][571]Cmd: QUIT_EDITOR
+[2016.04.17-11.15.16:590][571]LogExit: Preparing to exit.
+[2016.04.17-11.15.18:140][571]LogExit: Editor shut down
+[2016.04.17-11.15.18:141][571]LogExit: Transaction tracking system shut down
+[2016.04.17-11.15.18:771][571]LogObj: Freed 0b from 0 cluster array pools.
+[2016.04.17-11.15.18:772][571]LogExit: Object subsystem successfully closed.
+[2016.04.17-11.15.18:998][571]LogD3D11RHI: Shutdown
+[2016.04.17-11.15.18:998][571]LogD3D11RHI: CleanupD3DDevice
+[2016.04.17-11.15.19:027][571]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.17-11.15.19:130][571]LogDerivedDataCache: Shutdown
+[2016.04.17-11.15.19:575][571]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (207)
+[2016.04.17-11.15.19:575][571]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (206)
+[2016.04.17-11.15.19:575][571]LogModuleManager: Shutting down and abandoning module MaterialEditor (205)
+[2016.04.17-11.15.19:575][571]LogModuleManager: Shutting down and abandoning module BlueprintGraph (204)
+[2016.04.17-11.15.19:575][571]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (203)
+[2016.04.17-11.15.19:583][571]LogModuleManager: Shutting down and abandoning module CrashTracker (202)
+[2016.04.17-11.15.19:583][571]LogModuleManager: Shutting down and abandoning module SceneOutliner (201)
+[2016.04.17-11.15.19:591][571]LogModuleManager: Shutting down and abandoning module SuperSearch (200)
+[2016.04.17-11.15.19:591][571]LogModuleManager: Shutting down and abandoning module WidgetCarousel (199)
+[2016.04.17-11.15.19:591][571]LogModuleManager: Shutting down and abandoning module AddContentDialog (198)
+[2016.04.17-11.15.19:597][571]LogModuleManager: Shutting down and abandoning module GameplayTags (197)
+[2016.04.17-11.15.19:597][571]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
+[2016.04.17-11.15.19:597][571]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
+[2016.04.17-11.15.19:597][571]LogModuleManager: Shutting down and abandoning module StatsViewer (194)
+[2016.04.17-11.15.19:597][571]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
+[2016.04.17-11.15.19:597][571]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module BspMode (188)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
+[2016.04.17-11.15.19:607][571]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
+[2016.04.17-11.15.19:624][571]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
+[2016.04.17-11.15.19:637][571]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
+[2016.04.17-11.15.19:642][571]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
+[2016.04.17-11.15.19:642][571]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
+[2016.04.17-11.15.19:643][571]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
+[2016.04.17-11.15.19:643][571]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
+[2016.04.17-11.15.20:546][571]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
+[2016.04.17-11.15.20:546][571]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
+[2016.04.17-11.15.20:546][571]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
+[2016.04.17-11.15.20:546][571]LogModuleManager: Shutting down and abandoning module MergeActors (172)
+[2016.04.17-11.15.20:559][571]LogModuleManager: Shutting down and abandoning module SizeMap (171)
+[2016.04.17-11.15.20:559][571]LogModuleManager: Shutting down and abandoning module TreeMap (170)
+[2016.04.17-11.15.20:560][571]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
+[2016.04.17-11.15.20:560][571]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
+[2016.04.17-11.15.20:567][571]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
+[2016.04.17-11.15.20:574][571]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
+[2016.04.17-11.15.20:574][571]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
+[2016.04.17-11.15.20:580][571]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
+[2016.04.17-11.15.20:582][571]LogModuleManager: Shutting down and abandoning module UserFeedback (163)
+[2016.04.17-11.15.20:582][571]LogModuleManager: Shutting down and abandoning module XmlParser (162)
+[2016.04.17-11.15.20:582][571]LogModuleManager: Shutting down and abandoning module Blutility (161)
+[2016.04.17-11.15.20:582][571]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (160)
+[2016.04.17-11.15.20:583][571]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (159)
+[2016.04.17-11.15.20:583][571]LogModuleManager: Shutting down and abandoning module InputBindingEditor (158)
+[2016.04.17-11.15.20:586][571]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (157)
+[2016.04.17-11.15.20:586][571]LogModuleManager: Shutting down and abandoning module SettingsEditor (156)
+[2016.04.17-11.15.20:589][571]LogModuleManager: Shutting down and abandoning module ProjectLauncher (155)
+[2016.04.17-11.15.20:598][571]LogModuleManager: Shutting down and abandoning module SessionFrontend (154)
+[2016.04.17-11.15.20:615][571]LogModuleManager: Shutting down and abandoning module ProfilerClient (153)
+[2016.04.17-11.15.20:616][571]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (152)
+[2016.04.17-11.15.20:616][571]LogModuleManager: Shutting down and abandoning module DeviceManager (151)
+[2016.04.17-11.15.20:652][571]LogModuleManager: Shutting down and abandoning module AutomationController (150)
+[2016.04.17-11.15.20:655][571]LogModuleManager: Shutting down and abandoning module AutomationWindow (149)
+[2016.04.17-11.15.20:665][571]LogModuleManager: Shutting down and abandoning module Layers (148)
+[2016.04.17-11.15.20:670][571]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (147)
+[2016.04.17-11.15.20:670][571]LogModuleManager: Shutting down and abandoning module DetailCustomizations (146)
+[2016.04.17-11.15.20:675][571]LogModuleManager: Shutting down and abandoning module PackagesDialog (145)
+[2016.04.17-11.15.20:676][571]LogModuleManager: Shutting down and abandoning module Persona (144)
+[2016.04.17-11.15.20:697][571]LogModuleManager: Shutting down and abandoning module Kismet (143)
+[2016.04.17-11.15.20:701][571]LogModuleManager: Shutting down and abandoning module GraphEditor (142)
+[2016.04.17-11.15.20:701][571]LogModuleManager: Shutting down and abandoning module ClassViewer (141)
+[2016.04.17-11.15.20:710][571]LogModuleManager: Shutting down and abandoning module Toolbox (140)
+[2016.04.17-11.15.20:714][571]LogModuleManager: Shutting down and abandoning module ModuleUI (139)
+[2016.04.17-11.15.20:714][571]LogModuleManager: Shutting down and abandoning module MovieSceneTools (138)
+[2016.04.17-11.15.20:723][571]LogModuleManager: Shutting down and abandoning module OutputLog (137)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module GammaUI (136)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module Documentation (135)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (134)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module AnalyticsET (133)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module Analytics (132)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module PortalServices (131)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module PortalRpc (130)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module MessagingRpc (129)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
+[2016.04.17-11.15.20:724][571]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
+[2016.04.17-11.15.20:735][571]LogModuleManager: Shutting down and abandoning module AIModule (126)
+[2016.04.17-11.15.20:736][571]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module SteamVR (121)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module OculusInput (118)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module CableComponent (116)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
+[2016.04.17-11.15.20:806][571]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (114)
+[2016.04.17-11.15.20:821][571]LogModuleManager: Shutting down and abandoning module HTML5Networking (113)
+[2016.04.17-11.15.20:821][571]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (112)
+[2016.04.17-11.15.20:821][571]LogModuleManager: Shutting down and abandoning module PluginBrowser (111)
+[2016.04.17-11.15.20:833][571]LogModuleManager: Shutting down and abandoning module EpicSurvey (110)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module DesktopPlatform (109)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (108)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module UObjectPlugin (107)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (106)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (105)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module SourceControl (104)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module GitSourceControl (103)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (102)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (101)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (100)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module MeshPaint (99)
+[2016.04.17-11.15.20:841][571]LogModuleManager: Shutting down and abandoning module HotReload (98)
+[2016.04.17-11.15.20:852][571]LogModuleManager: Shutting down and abandoning module MainFrame (97)
+[2016.04.17-11.15.20:852][571]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
+[2016.04.17-11.15.20:854][571]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
+[2016.04.17-11.15.20:859][571]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
+[2016.04.17-11.15.20:998][571]LogModuleManager: Shutting down and abandoning module ContentBrowser (93)
+[2016.04.17-11.15.20:999][571]LogModuleManager: Shutting down and abandoning module Paper2DEditor (92)
+[2016.04.17-11.15.20:999][571]LogModuleManager: Shutting down and abandoning module UdpMessaging (91)
+[2016.04.17-11.15.21:099][571]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (90)
+[2016.04.17-11.15.21:099][571]LogModuleManager: Shutting down and abandoning module Paper2D (89)
+[2016.04.17-11.15.21:099][571]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (88)
+[2016.04.17-11.15.21:112][571]LogModuleManager: Shutting down and abandoning module Media (87)
+[2016.04.17-11.15.21:112][571]LogModuleManager: Shutting down and abandoning module WmfMedia (86)
+[2016.04.17-11.15.21:119][571]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.04.17-11.15.21:119][571]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.04.17-11.15.21:119][571]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.04.17-11.15.21:119][571]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.04.17-11.15.21:119][571]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.04.17-11.15.21:120][571]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.04.17-11.15.21:127][571]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.04.17-11.15.21:127][571]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.04.17-11.15.21:135][571]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.04.17-11.15.21:135][571]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.04.17-11.15.21:135][571]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.04.17-11.15.21:146][571]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.04.17-11.15.21:146][571]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.04.17-11.15.21:170][571]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.04.17-11.15.21:189][571]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.04.17-11.15.21:204][571]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.04.17-11.15.21:204][571]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.04.17-11.15.21:206][571]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.04.17-11.15.21:206][571]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.04.17-11.15.21:206][571]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.04.17-11.15.21:206][571]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.04.17-11.15.21:206][571]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.04.17-11.15.21:206][571]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.04.17-11.15.21:206][571]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.04.17-11.15.21:214][571]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.04.17-11.15.21:214][571]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.04.17-11.15.21:228][571]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.04.17-11.15.21:230][571]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.04.17-11.15.21:230][571]LogDerivedDataCache: Shutdown
+[2016.04.17-11.15.21:230][571]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.04.17-11.15.21:244][571]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.04.17-11.15.21:244][571]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.04.17-11.15.21:253][571]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.04.17-11.15.21:253][571]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.04.17-11.15.21:253][571]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.04.17-11.15.21:253][571]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.04.17-11.15.21:253][571]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.04.17-11.15.21:253][571]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.04.17-11.15.21:253][571]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.04.17-11.15.21:253][571]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.17-11.15.21:257][571]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.17-11.15.21:269][571]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.17-11.15.23:272][571]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.17-11.15.28:808][571]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.17-11.15.28:825][571]LogHMD: Oculus shutdown.
+[2016.04.17-11.15.28:831][571]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.17-11.15.28:831][571]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.17-11.15.28:831][571]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.17-11.15.28:831][571]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.17-11.15.28:831][571]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.17-11.15.28:955][571]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.17-11.15.28:995][571]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.17-11.15.28:995][571]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.17-11.15.28:995][571]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.17-11.15.28:995][571]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.17-11.15.28:995][571]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.17-11.15.28:995][571]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.17-11.15.29:013][571]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.17-11.15.29:013][571]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.17-11.15.29:015][571]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.17-11.15.29:176][571]LogExit: Exiting.
+[2016.04.17-11.15.29:191][571]Log file closed, 04/17/16 12:15:29
