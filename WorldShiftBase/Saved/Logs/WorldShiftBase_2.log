@@ -1,13 +1,13 @@
-﻿Log file open, 04/16/16 16:18:18
+﻿Log file open, 04/22/16 11:36:12
 LogInit:Display: Running engine for game: WorldShiftBase
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(293037019) SRandInit(293037020).
+LogInit:Display: RandInit(1859431354) SRandInit(1859431355).
 LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
-LogStats: Stats thread started at 0.066859
+LogStats: Stats thread started at 0.068436
 OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files (x86)\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
-LogInit: Version: 4.11.1-2934540+++UE4+Release-4.11
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
 LogInit: API Version: 2927265
-LogInit: Compiled (64-bit): Apr  6 2016 02:14:16
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
 LogInit: Compiled with Visual C++: 19.00.23026.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.11
@@ -30,643 +30,817 @@ LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
 LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
 LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2016.04.16-15.18.19:047][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.16-15.18.19:047][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.04.16-15.18.19:054][  0]LogInit: Computer: UNICRON
-[2016.04.16-15.18.19:054][  0]LogInit: User: AdamEdinburgh
-[2016.04.16-15.18.19:054][  0]LogInit: CPU Page size=65536, Cores=4
-[2016.04.16-15.18.19:054][  0]LogInit: High frequency timer resolution =3.312638 MHz
-[2016.04.16-15.18.19:055][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2016.04.16-15.18.19:055][  0]LogMemory: Platform Memory Stats for Windows
-[2016.04.16-15.18.19:055][  0]LogMemory: Process Physical Memory: 318.29 MB used, 318.29 MB peak
-[2016.04.16-15.18.19:055][  0]LogMemory: Process Virtual Memory: 317.69 MB used, 317.69 MB peak
-[2016.04.16-15.18.19:055][  0]LogMemory: Physical Memory: 4788.95 MB used, 8072.55 MB total
-[2016.04.16-15.18.19:055][  0]LogMemory: Virtual Memory: 696.63 MB used, 134217728.00 MB total
-[2016.04.16-15.18.19:080][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
-[2016.04.16-15.18.19:424][  0]LogD3D11RHI: D3D11 adapters:
-[2016.04.16-15.18.19:449][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
-[2016.04.16-15.18.19:449][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 1 output[s]
-[2016.04.16-15.18.19:454][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
-[2016.04.16-15.18.19:454][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
-[2016.04.16-15.18.19:455][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2016.04.16-15.18.19:455][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
-[2016.04.16-15.18.19:455][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2016.04.16-15.18.19:459][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2016.04.16-15.18.19:459][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2016.04.16-15.18.19:459][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
-[2016.04.16-15.18.19:459][  0]LogD3D11RHI:      Driver Date: Unknown
-[2016.04.16-15.18.19:459][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.04.16-15.18.19:469][  0]LogD3D11RHI: Async texture creation enabled
-[2016.04.16-15.18.19:478][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Intermediate/Shaders/WorkingDirectory/3472/).
-[2016.04.16-15.18.19:479][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADAMED~1/AppData/Local/Temp/UnrealShaderWorkingDir/AC140FFA4CDD57F2862C989FC6689F2A/'.
-[2016.04.16-15.18.19:479][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2016.04.16-15.18.20:268][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2016.04.16-15.18.20:272][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2016.04.16-15.18.20:276][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2016.04.16-15.18.20:280][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2016.04.16-15.18.20:283][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2016.04.16-15.18.20:286][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2016.04.16-15.18.20:289][  0]OCULUS: Info: [HMDState] Requested to SetForegroundWindow(70552ll)
-[2016.04.16-15.18.20:289][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2016.04.16-15.18.20:292][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2016.04.16-15.18.20:295][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2016.04.16-15.18.20:298][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2016.04.16-15.18.20:301][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2016.04.16-15.18.20:307][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2016.04.16-15.18.20:307][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2016.04.16-15.18.20:307][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2016.04.16-15.18.20:323][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2016.04.16-15.18.20:326][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2016.04.16-15.18.20:328][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2016.04.16-15.18.20:331][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2016.04.16-15.18.20:333][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2016.04.16-15.18.20:333][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.04.16-15.18.20:399][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.04.16-15.18.20:479][  0]LogDerivedDataCache: Loaded boot cache 0.07s 50MB C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.04.16-15.18.20:479][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
-[2016.04.16-15.18.20:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.04.16-15.18.20:479][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.04.16-15.18.20:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2016.04.16-15.18.20:479][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2016.04.16-15.18.20:493][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.04.16-15.18.20:505][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.04.16-15.18.20:636][  0]LogInit: Selected Device Profile: [Windows]
-[2016.04.16-15.18.20:636][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2016.04.16-15.18.20:665][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2016.04.16-15.18.20:768][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.04.16-15.18.20:768][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.04.16-15.18.20:768][  0]LogMeshUtilities: No distributed automatic mesh merging module available
-[2016.04.16-15.18.20:956][  0]LogUObjectArray: 27678 objects as part of root set at end of initial load.
-[2016.04.16-15.18.20:956][  0]LogUObjectAllocator: 5591384 out of 0 bytes used by permanent object pool.
-[2016.04.16-15.18.20:956][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2016.04.16-15.18.20:962][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.04.16-15.18.21:029][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.04.16-15.18.21:029][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2016.04.16-15.18.21:106][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.04.16-15.18.21:106][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.04.16-15.18.21:106][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.04.16-15.18.21:106][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.04.16-15.18.21:107][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
-[2016.04.16-15.18.21:107][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
-[2016.04.16-15.18.21:553][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.04.16-15.18.21:650][  0]LogAssetRegistry: FAssetRegistry took 0.0215 seconds to start up
-[2016.04.16-15.18.21:764][  0]SourceControl: Info Source control is disabled
-[2016.04.16-15.18.21:764][  0]SourceControl: Info Source control is disabled
-[2016.04.16-15.18.21:771][  0]SourceControl: Info Source control is disabled
-[2016.04.16-15.18.21:777][  0]SourceControl: Info Source control is disabled
-[2016.04.16-15.18.21:941][  0]LogEngine: Initializing Engine...
-[2016.04.16-15.18.24:344][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-031B5D7F
-[2016.04.16-15.18.29:866][  0]LogHMD: SteamVR failed to initialize.  Err: 301
-[2016.04.16-15.18.29:866][  0]LogHMD: Oculus plugin initialized. Version: 4.11.1-2934540+++UE4+Release-4.11, LibOVR: 1.3.1, SDK: 1.3.0, built Apr  6 2016, 02:14:55
-[2016.04.16-15.18.29:989][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.04.16-15.18.30:003][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.04.16-15.18.30:023][  0]LogInit: FAudioDevice initialized.
-[2016.04.16-15.18.30:046][  0]LogDerivedDataCache: Saved boot cache 0.02s 50MB C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
-[2016.04.16-15.18.30:052][  0]LogInit: Texture streaming: Enabled
-[2016.04.16-15.18.30:069][  0]LogInit: Transaction tracking system initialized
-[2016.04.16-15.18.30:087][  0]BlueprintLog: New page: Editor Load
-[2016.04.16-15.18.30:141][  0]LocalizationService: Info Localization service is disabled
-[2016.04.16-15.18.30:186][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2016.04.16-15.18.30:186][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
-[2016.04.16-15.18.30:186][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
-[2016.04.16-15.18.30:196][  0]LogConsoleResponse:Display: 
-[2016.04.16-15.18.30:275][  0]LogCook:Display: Max memory allowance for cook 8192mb
-[2016.04.16-15.18.30:275][  0]LogCook:Display: Mobile HDR setting 1
-[2016.04.16-15.18.30:275][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.04.16-15.18.30:315][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/' took 0.01s
-[2016.04.16-15.18.30:315][  0]SourceControl: Info Source control is disabled
-[2016.04.16-15.18.30:315][  0]Cmd: MAP LOAD FILE="../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.04.16-15.18.30:315][  0]LightingResults: New page: Lighting Build
-[2016.04.16-15.18.30:318][  0]MapCheck: New page: Map Check
-[2016.04.16-15.18.30:318][  0]LightingResults: New page: Lighting Build
-[2016.04.16-15.18.30:570][  0]LogAIModule: Creating AISystem for world MainLevel
-[2016.04.16-15.18.30:575][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.04.16-15.18.30:575][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2016.04.16-15.18.30:606][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 30.564ms to complete.
-[2016.04.16-15.18.30:606][  0]LogFileHelpers: Loading map 'MainLevel' took 0.290
-[2016.04.16-15.18.30:694][  0]LogCollectionManager: Loaded 0 collections in 0.001556 seconds
-[2016.04.16-15.18.30:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Collections/' took 0.01s
-[2016.04.16-15.18.30:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Developers/AdamEdinburgh/Collections/' took 0.01s
-[2016.04.16-15.18.30:731][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Collections/' took 0.01s
-[2016.04.16-15.18.30:731][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2016.04.16-15.18.30:737][  0]LogContentBrowser: Native class hierarchy populated in 0.0058 seconds. Added 1979 classes and 343 folders.
-[2016.04.16-15.18.30:740][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2016.04.16-15.18.30:740][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2016.04.16-15.18.30:740][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
-[2016.04.16-15.18.30:744][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.04.16-15.18.30:749][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.04.16-15.18.30:780][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2016.04.16-15.18.30:783][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.04.16-15.18.30:825][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.04.16-15.18.30:829][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.04.16-15.18.30:854][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2016.04.16-15.18.30:854][  0]LogLoad: Full Startup: 12.93 seconds (BP compile: 0.06 seconds)
-[2016.04.16-15.18.30:854][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
-[2016.04.16-15.18.30:863][  0]LogOcInput: OculusInput pre-init called
-[2016.04.16-15.18.30:871][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.3.1
-[2016.04.16-15.18.30:888][  0]LogAssetRegistry: Asset discovery search completed in 9.2588 seconds
-[2016.04.16-15.18.30:888][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2016.04.16-15.18.30:888][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000016 seconds (updated 0 objects)
-[2016.04.16-15.18.30:912][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2016.04.16-15.18.31:032][  0]LogRenderer: Reallocating scene render targets to support 712x308 (Frame:2).
-[2016.04.16-15.18.33:840][323]LogEditorViewport: Clicking on Actor (LMB): PlayerDummy_C (PlayerDummy)
-[2016.04.16-15.18.34:428][388]LogEditorViewport: Clicking on Actor (context menu): PlayerDummy_C (PlayerDummy)
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator0' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator1' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator2' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator3' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator4' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator5' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::EFloorAngles_MAX' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator0' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator1' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator2' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator3' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator4' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:549][721]LogEnum:Warning: Enum name collision: 'EFloorAngles::NewEnumerator5' is in both '/Game/FromPrototype/WorldRip/Blueprints/teleport/EFloorAngles.EFloorAngles' and '/Game/FromPrototype/Blueprints/teleport/EFloorAngles.EFloorAngles'
-[2016.04.16-15.18.37:555][721]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 108 classes and 0 folders.
-[2016.04.16-15.18.45:775][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:775][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/WorldShiftManager.uasset.
-[2016.04.16-15.18.45:776][623]LoadErrors:Error: Error /Game/FromPrototype/Blueprints/WorldShiftManager : Can't find file for asset. /Game/Blueprints/WorldShifterComponent
-[2016.04.16-15.18.45:776][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:776][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/WorldShiftManager.uasset.
-[2016.04.16-15.18.45:776][623]LoadErrors:Error: Error /Game/FromPrototype/Blueprints/WorldShiftManager : Can't find file for asset. /Game/FirstPersonBP/Blueprints/FirstPersonCharacter
-[2016.04.16-15.18.45:776][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:776][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/WorldShiftManager.uasset.
-[2016.04.16-15.18.45:777][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:777][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/WorldShiftManager.uasset.
-[2016.04.16-15.18.45:777][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:777][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/WorldShiftManager.uasset.
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:778][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:779][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:779][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by WorldShiftManager
-[2016.04.16-15.18.45:779][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:780][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:780][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by K2Node_DynamicCast_515
-[2016.04.16-15.18.45:780][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:780][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:780][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_11167
-[2016.04.16-15.18.45:780][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:781][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:781][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by K2Node_DynamicCast_514
-[2016.04.16-15.18.45:781][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:781][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:781][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_11185
-[2016.04.16-15.18.45:781][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:781][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:781][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_11010
-[2016.04.16-15.18.45:782][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:782][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:782][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_11011
-[2016.04.16-15.18.45:782][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:782][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:782][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_11025
-[2016.04.16-15.18.45:782][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:782][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:782][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_11026
-[2016.04.16-15.18.45:783][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:783][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:783][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by K2Node_CallFunction_6426
-[2016.04.16-15.18.45:783][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:783][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:783][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by EdGraphPin_11201
-[2016.04.16-15.18.45:783][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:783][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:783][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by K2Node_VariableGet_1319
-[2016.04.16-15.18.45:784][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:784][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:784][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by EdGraphPin_11211
-[2016.04.16-15.18.45:784][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:784][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:784][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_11212
-[2016.04.16-15.18.45:784][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:784][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:784][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by K2Node_CallFunction_6425
-[2016.04.16-15.18.45:784][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:785][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:785][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by EdGraphPin_11219
-[2016.04.16-15.18.45:785][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:785][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:785][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by K2Node_CallFunction_6424
-[2016.04.16-15.18.45:785][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:785][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:785][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by EdGraphPin_11231
-[2016.04.16-15.18.45:785][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:786][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:786][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by K2Node_CallFunction_6423
-[2016.04.16-15.18.45:786][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:786][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:786][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by EdGraphPin_11243
-[2016.04.16-15.18.45:786][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:786][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:786][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by K2Node_VariableGet_1313
-[2016.04.16-15.18.45:786][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:787][623]LogLinker:Warning: Can't find file '/Game/Blueprints/WorldShifterComponent'
-[2016.04.16-15.18.45:787][623]LoadErrors: Info Failed to load /Game/Blueprints/WorldShifterComponent.WorldShifterComponent_C Referenced by EdGraphPin_11253
-[2016.04.16-15.18.45:787][623]LogLinker:Warning: Can't find file for asset '/Game/Blueprints/WorldShifterComponent' while loading NULL.
-[2016.04.16-15.18.45:787][623]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter'
-[2016.04.16-15.18.45:787][623]LoadErrors: Info Failed to load /Game/FirstPersonBP/Blueprints/FirstPersonCharacter.FirstPersonCharacter_C Referenced by EdGraphPin_11254
-[2016.04.16-15.18.45:787][623]LogLinker:Warning: Can't find file for asset '/Game/FirstPersonBP/Blueprints/FirstPersonCharacter' while loading NULL.
-[2016.04.16-15.18.45:790][623]LogBlueprint:Warning: [WorldShiftManager] CreatePinForVariable: 'WorldShifterComponent' variable not found. Base class was probably changed.
-[2016.04.16-15.18.45:790][623]LogBlueprint:Warning: [WorldShiftManager] CreatePinForVariable: 'WorldShifterComponent' variable not found. Base class was probably changed.
-[2016.04.16-15.18.45:792][623]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Could not find a variable named "WorldShifterComponent" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Get WorldShifterComponent 
-[2016.04.16-15.18.45:792][623]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.18.45:792][623]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.18.45:792][623]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.18.45:792][623]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Could not find a variable named "WorldShifterComponent" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Get WorldShifterComponent 
-[2016.04.16-15.18.45:792][623]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.18.45:792][623]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.18.45:792][623]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.18.45:792][623]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.18.45:792][623]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.18.45:793][623]LogBlueprint:Error: [compiler WorldShiftManager] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2016.04.16-15.18.45:793][623]LogBlueprint:Error: [compiler WorldShiftManager] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2016.04.16-15.18.45:793][623]LogBlueprint:Error: [compiler WorldShiftManager] Error The property associated with  World Shifter Component  could not be found
-[2016.04.16-15.18.45:793][623]LogBlueprint:Error: [compiler WorldShiftManager] Error The property associated with  World Shifter Component  could not be found
-[2016.04.16-15.18.45:795][623]LogBlueprint:Warning: [compiler WorldShiftManager] Warning [0027.88] Compile of WorldShiftManager failed. 8 Fatal Issue(s) 6 Warning(s) [in 4 ms]
-[2016.04.16-15.18.45:795][623]LogBlueprint:Warning: [compiler WorldShiftManager] Warning [0027.88] Compile of WorldShiftManager failed. 8 Fatal Issue(s) 7 Warning(s) [in 0 ms]
-[2016.04.16-15.18.45:795][623]LogBlueprint:Warning: [compiler WorldShiftManager] Warning [0027.88] Compile of WorldShiftManager failed. 8 Fatal Issue(s) 8 Warning(s) [in 0 ms]
-[2016.04.16-15.18.49:366][ 39]LogEditorViewport: Clicking on Actor (context menu): WorldShiftManager_C (WorldShiftManager)
-[2016.04.16-15.19.10:796][447]BlueprintLog: New page: Compile WorldShiftManager
-[2016.04.16-15.19.10:804][447]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Could not find a variable named "WorldShifterComponent" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Get WorldShifterComponent 
-[2016.04.16-15.19.10:804][447]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.19.10:804][447]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.19.10:804][447]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.19.10:804][447]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.19.10:804][447]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.19.10:804][447]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.19.10:804][447]LogBlueprint:Error: [compiler WorldShiftManager] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2016.04.16-15.19.10:804][447]LogBlueprint:Error: [compiler WorldShiftManager] Error The property associated with  World Shifter Component  could not be found
-[2016.04.16-15.19.10:944][447]LogBlueprint:Warning: [compiler WorldShiftManager] Warning [0053.02] Compile of WorldShiftManager failed. 6 Fatal Issue(s) 3 Warning(s) [in 148 ms]
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "WorldShifterComponent" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Get WorldShifterComponent 
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Error: Error The property associated with  World Shifter Component  could not be found
-[2016.04.16-15.19.10:945][447]BlueprintEditorCompileResults:Warning: Warning [0053.02] Compile of WorldShiftManager failed. 6 Fatal Issue(s) 3 Warning(s) [in 148 ms]
-[2016.04.16-15.19.22:395][791]LogTemp: Dropped CanWorldShift on Category World Shift
-[2016.04.16-15.21.12:889][842]BlueprintLog: New page: Compile PlayerDummy
-[2016.04.16-15.21.12:924][842]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Could not find a variable named "WorldShifterComponent" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Get WorldShifterComponent 
-[2016.04.16-15.21.12:924][842]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.21.12:924][842]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.21.12:924][842]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.21.12:924][842]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.21.12:924][842]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.21.12:924][842]LogBlueprint:Error: [compiler WorldShiftManager] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2016.04.16-15.21.12:924][842]LogBlueprint:Error: [compiler WorldShiftManager] Error The property associated with  World Shifter Component  could not be found
-[2016.04.16-15.21.13:143][842]BlueprintEditorCompileResults: Info [0175.22] Compile of PlayerDummy successful! [in 253 ms]
-[2016.04.16-15.21.13:699][894]LogSavePackage: Save=71.60ms
-[2016.04.16-15.21.13:699][894]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyFF5BF62B4AB2E11BE724C0891B600C30.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
-[2016.04.16-15.21.13:701][894]LogSavePackage: Total save time: 79.13ms
-[2016.04.16-15.21.13:701][894]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
-[2016.04.16-15.21.56:635][999]BlueprintLog: New page: Compile PlayerDummy
-[2016.04.16-15.21.56:669][999]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Could not find a variable named "WorldShifterComponent" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Get WorldShifterComponent 
-[2016.04.16-15.21.56:669][999]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.21.56:669][999]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.21.56:669][999]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.21.56:669][999]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.21.56:669][999]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.21.56:670][999]LogBlueprint:Error: [compiler WorldShiftManager] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2016.04.16-15.21.56:670][999]LogBlueprint:Error: [compiler WorldShiftManager] Error The property associated with  World Shifter Component  could not be found
-[2016.04.16-15.21.56:806][999]BlueprintEditorCompileResults: Info [0218.89] Compile of PlayerDummy successful! [in 171 ms]
-[2016.04.16-15.21.57:181][ 30]LogSavePackage: Save=73.24ms
-[2016.04.16-15.21.57:181][ 30]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy047BA35341B36215308155B36B8945E7.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
-[2016.04.16-15.21.57:184][ 30]LogSavePackage: Total save time: 77.21ms
-[2016.04.16-15.21.57:184][ 30]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
-[2016.04.16-15.22.29:346][858]BlueprintLog: New page: Compile WorldShiftManager
-[2016.04.16-15.22.29:354][858]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Could not find a variable named "WorldShifterComponent" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Get WorldShifterComponent 
-[2016.04.16-15.22.29:354][858]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.22.29:354][858]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.22.29:354][858]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.22.29:354][858]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.22.29:354][858]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.22.29:354][858]LogBlueprint:Error: [compiler WorldShiftManager] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2016.04.16-15.22.29:354][858]LogBlueprint:Error: [compiler WorldShiftManager] Error The property associated with  World Shifter Component  could not be found
-[2016.04.16-15.22.29:476][858]LogBlueprint:Warning: [compiler WorldShiftManager] Warning [0251.56] Compile of WorldShiftManager failed. 5 Fatal Issue(s) 3 Warning(s) [in 129 ms]
-[2016.04.16-15.22.29:476][858]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "WorldShifterComponent" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Get WorldShifterComponent 
-[2016.04.16-15.22.29:476][858]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.22.29:476][858]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.22.29:476][858]BlueprintEditorCompileResults:Error: Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.22.29:476][858]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.22.29:476][858]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.22.29:476][858]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2016.04.16-15.22.29:476][858]BlueprintEditorCompileResults:Error: Error The property associated with  World Shifter Component  could not be found
-[2016.04.16-15.22.29:476][858]BlueprintEditorCompileResults:Warning: Warning [0251.56] Compile of WorldShiftManager failed. 5 Fatal Issue(s) 3 Warning(s) [in 129 ms]
-[2016.04.16-15.22.49:917][288]LogSavePackage: Save=73.17ms
-[2016.04.16-15.22.49:917][288]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyB04CA82549CFF04BF16996ACCD8B6ED3.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
-[2016.04.16-15.22.49:919][288]LogSavePackage: Total save time: 76.27ms
-[2016.04.16-15.22.49:919][288]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
-[2016.04.16-15.24.32:951][629]LogTemp: Dropped CanWorldUnshift on Category World Shift
-[2016.04.16-15.25.11:904][280]BlueprintLog: New page: Compile PlayerDummy
-[2016.04.16-15.25.11:942][280]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Could not find a variable named "WorldShifterComponent" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Get WorldShifterComponent 
-[2016.04.16-15.25.11:942][280]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldShift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Shift 
-[2016.04.16-15.25.11:942][280]LogBlueprint:Error: [compiler WorldShiftManager] Error Could not find a function named "SetCanWorldUnshift" in 'WorldShiftManager'.
-Make sure 'WorldShiftManager' has been compiled for  Set Can World Unshift 
-[2016.04.16-15.25.11:942][280]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.25.11:942][280]LogBlueprint:Warning: [compiler WorldShiftManager] Warning Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
-[2016.04.16-15.25.11:942][280]LogBlueprint:Error: [compiler WorldShiftManager] Error This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
-[2016.04.16-15.25.11:942][280]LogBlueprint:Error: [compiler WorldShiftManager] Error The property associated with  World Shifter Component  could not be found
-[2016.04.16-15.25.12:182][280]BlueprintEditorCompileResults: Info [0414.26] Compile of PlayerDummy successful! [in 278 ms]
-[2016.04.16-15.25.12:691][323]LogSavePackage: Save=104.34ms
-[2016.04.16-15.25.12:691][323]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy043AAA364D923C06DA5E55BDFA20B9C8.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
-[2016.04.16-15.25.12:693][323]LogSavePackage: Total save time: 107.95ms
-[2016.04.16-15.25.12:693][323]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
-[2016.04.16-15.27.45:917][187]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_2798.EdGraphPin_31851''
-[2016.04.16-15.27.59:014][754]BlueprintLog: New page: Compile WorldShiftManager
-[2016.04.16-15.27.59:188][754]BlueprintEditorCompileResults: Info [0581.27] Compile of WorldShiftManager successful! [in 174 ms]
-[2016.04.16-15.28.01:112][977]LogSavePackage: Save=30.20ms
-[2016.04.16-15.28.01:112][977]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/WorldShiftManager1009188E4A2A20C55CAD4D9634E70158.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/WorldShiftManager.uasset'
-[2016.04.16-15.28.01:114][977]LogSavePackage: Total save time: 38.45ms
-[2016.04.16-15.28.01:114][977]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/WorldShiftManager.uasset
-[2016.04.16-15.28.08:659][875]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.04.16-15.28.18:195][  0]LogRenderer: Reallocating scene render targets to support 712x496 (Frame:5551).
-[2016.04.16-15.29.23:098][753]LogEditorViewport: Clicking on Actor (LMB): PlayerDummy_C (PlayerDummy)
-[2016.04.16-15.30.32:303][979]BlueprintLog: New page: Compile PlayerDummy
-[2016.04.16-15.30.32:326][979]LogBlueprint:Error: [compiler PlayerDummy] Error Found more than one function with the same name ReceiveTick; second occurance at  Event Tick 
-[2016.04.16-15.30.32:592][979]LogBlueprint:Warning: [compiler PlayerDummy] Warning [0734.67] Compile of PlayerDummy failed. 1 Fatal Issue(s) 0 Warning(s) [in 288 ms]
-[2016.04.16-15.30.32:592][979]BlueprintEditorCompileResults:Error: Error Found more than one function with the same name ReceiveTick; second occurance at  Event Tick 
-[2016.04.16-15.30.32:592][979]BlueprintEditorCompileResults:Warning: Warning [0734.67] Compile of PlayerDummy failed. 1 Fatal Issue(s) 0 Warning(s) [in 288 ms]
-[2016.04.16-15.30.57:559][957]BlueprintLog: New page: Compile PlayerDummy
-[2016.04.16-15.30.57:673][957]BlueprintEditorCompileResults: Info [0759.75] Compile of PlayerDummy successful! [in 113 ms]
-[2016.04.16-15.30.58:294][ 17]LogSavePackage: Save=81.02ms
-[2016.04.16-15.30.58:294][ 17]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy46EF6C534C334352823F01AEEE58AD16.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
-[2016.04.16-15.30.58:297][ 17]LogSavePackage: Total save time: 88.56ms
-[2016.04.16-15.30.58:297][ 17]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
-[2016.04.16-15.33.01:258][639]BlueprintLog: New page: Compile PlayerDummy
-[2016.04.16-15.33.01:376][639]BlueprintEditorCompileResults: Info [0883.46] Compile of PlayerDummy successful! [in 117 ms]
-[2016.04.16-15.33.01:945][692]LogSavePackage: Save=85.38ms
-[2016.04.16-15.33.01:945][692]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy69D8BD43460BFCDC855FFBBC6CBF5655.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
-[2016.04.16-15.33.01:947][692]LogSavePackage: Total save time: 88.92ms
-[2016.04.16-15.33.01:947][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
-[2016.04.16-15.33.05:419][864]LogSavePackage: Save=22.67ms
-[2016.04.16-15.33.05:419][864]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevelE81E57744D2F4C937384D5A2D310AD22.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
-[2016.04.16-15.33.05:421][864]LogSavePackage: Total save time: 30.01ms
-[2016.04.16-15.33.05:421][864]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
-[2016.04.16-15.33.05:450][864]LogFileHelpers: Saving map 'MainLevel' took 0.112
-[2016.04.16-15.33.05:524][864]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
-[2016.04.16-15.33.05:766][865]Cmd: QUIT_EDITOR
-[2016.04.16-15.33.05:813][865]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2016.04.16-15.33.05:847][865]LogExit: Preparing to exit.
-[2016.04.16-15.33.06:915][865]LogExit: Editor shut down
-[2016.04.16-15.33.06:916][865]LogExit: Transaction tracking system shut down
-[2016.04.16-15.33.07:048][865]LogObj: Freed 0b from 0 cluster array pools.
-[2016.04.16-15.33.07:049][865]LogExit: Object subsystem successfully closed.
-[2016.04.16-15.33.07:067][865]LogD3D11RHI: Shutdown
-[2016.04.16-15.33.07:067][865]LogD3D11RHI: CleanupD3DDevice
-[2016.04.16-15.33.07:120][865]LogD3D11RHI: ~FD3D11DynamicRHI
-[2016.04.16-15.33.07:133][865]LogDerivedDataCache: Shutdown
-[2016.04.16-15.33.07:134][865]LogModuleManager: Shutting down and abandoning module BlueprintGraph (204)
-[2016.04.16-15.33.07:134][865]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (203)
-[2016.04.16-15.33.07:134][865]LogModuleManager: Shutting down and abandoning module CrashTracker (202)
-[2016.04.16-15.33.07:134][865]LogModuleManager: Shutting down and abandoning module SceneOutliner (201)
-[2016.04.16-15.33.07:134][865]LogModuleManager: Shutting down and abandoning module SuperSearch (200)
-[2016.04.16-15.33.07:134][865]LogModuleManager: Shutting down and abandoning module WidgetCarousel (199)
-[2016.04.16-15.33.07:134][865]LogModuleManager: Shutting down and abandoning module AddContentDialog (198)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module GameplayTags (197)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module EditorWidgets (196)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module CollectionManager (195)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module StatsViewer (194)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module FoliageEdit (193)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module LandscapeEditor (192)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module ActorPickerMode (191)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module GeometryMode (190)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module TextureAlignMode (189)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module BspMode (188)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module PlacementMode (187)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module AutomationWorker (186)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module CharacterAI (185)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module SmartSnapping (184)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module ViewportSnapping (183)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module LogVisualizer (182)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (181)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module IntroTutorials (180)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (179)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (178)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (177)
-[2016.04.16-15.33.07:135][865]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (176)
-[2016.04.16-15.33.07:403][865]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (175)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (174)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (173)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module MergeActors (172)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module SizeMap (171)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module TreeMap (170)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module ReferenceViewer (169)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module LocalizationService (168)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (167)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module HardwareTargeting (166)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (165)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module UndoHistory (164)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module UserFeedback (163)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module XmlParser (162)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module Blutility (161)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (160)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (159)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module InputBindingEditor (158)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (157)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module SettingsEditor (156)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module ProjectLauncher (155)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module SessionFrontend (154)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module ProfilerClient (153)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (152)
-[2016.04.16-15.33.07:404][865]LogModuleManager: Shutting down and abandoning module DeviceManager (151)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module AutomationController (150)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module AutomationWindow (149)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module Layers (148)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (147)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module DetailCustomizations (146)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module PackagesDialog (145)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module Persona (144)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module Kismet (143)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module GraphEditor (142)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module ClassViewer (141)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module Toolbox (140)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module ModuleUI (139)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module MovieSceneTools (138)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module OutputLog (137)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module GammaUI (136)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module Documentation (135)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (134)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module AnalyticsET (133)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module Analytics (132)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module PortalServices (131)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module PortalRpc (130)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module MessagingRpc (129)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module AITestSuite (128)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module GameplayDebugger (127)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module AIModule (126)
-[2016.04.16-15.33.07:435][865]LogModuleManager: Shutting down and abandoning module ProfilerService (125)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module TaskGraph (124)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module SlateRemote (123)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module SteamVRController (122)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module SteamVR (121)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (120)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module OculusLibrary (119)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module OculusInput (118)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (117)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module CableComponent (116)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (115)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (114)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module HTML5Networking (113)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (112)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module PluginBrowser (111)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module EpicSurvey (110)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module DesktopPlatform (109)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (108)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module UObjectPlugin (107)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (106)
-[2016.04.16-15.33.07:451][865]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (105)
-[2016.04.16-15.33.07:452][865]LogModuleManager: Shutting down and abandoning module SourceControl (104)
-[2016.04.16-15.33.07:452][865]LogModuleManager: Shutting down and abandoning module GitSourceControl (103)
-[2016.04.16-15.33.07:452][865]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (102)
-[2016.04.16-15.33.07:452][865]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (101)
-[2016.04.16-15.33.07:452][865]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (100)
-[2016.04.16-15.33.07:452][865]LogModuleManager: Shutting down and abandoning module MeshPaint (99)
-[2016.04.16-15.33.07:452][865]LogModuleManager: Shutting down and abandoning module HotReload (98)
-[2016.04.16-15.33.07:452][865]LogModuleManager: Shutting down and abandoning module MainFrame (97)
-[2016.04.16-15.33.07:452][865]LogModuleManager: Shutting down and abandoning module LevelEditor (96)
-[2016.04.16-15.33.07:453][865]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
-[2016.04.16-15.33.07:453][865]LogModuleManager: Shutting down and abandoning module AssetRegistry (94)
-[2016.04.16-15.33.07:590][865]LogModuleManager: Shutting down and abandoning module ContentBrowser (93)
-[2016.04.16-15.33.07:590][865]LogModuleManager: Shutting down and abandoning module Paper2DEditor (92)
-[2016.04.16-15.33.07:590][865]LogModuleManager: Shutting down and abandoning module UdpMessaging (91)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (90)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module Paper2D (89)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (88)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module Media (87)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module WmfMedia (86)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module MessageLog (76)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module Sequencer (75)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module AssetTools (74)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module UMG (72)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module Slate (70)
-[2016.04.16-15.33.07:692][865]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module SessionServices (68)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Networking (63)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Core (62)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module CookingStats (58)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
-[2016.04.16-15.33.07:694][865]LogDerivedDataCache: Shutdown
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Messaging (39)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module InputCore (22)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module Settings (21)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
-[2016.04.16-15.33.07:694][865]LogModuleManager: Shutting down and abandoning module HTTP (18)
-[2016.04.16-15.33.08:695][865]LogModuleManager: Shutting down and abandoning module XMPP (17)
-[2016.04.16-15.33.08:695][865]LogModuleManager: Shutting down and abandoning module OculusRift (16)
-[2016.04.16-15.33.08:696][865]LogHMD: Oculus shutdown.
-[2016.04.16-15.33.08:696][865]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
-[2016.04.16-15.33.08:696][865]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
-[2016.04.16-15.33.08:700][865]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
-[2016.04.16-15.33.08:700][865]LogModuleManager: Shutting down and abandoning module Landscape (12)
-[2016.04.16-15.33.08:700][865]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
-[2016.04.16-15.33.08:702][865]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
-[2016.04.16-15.33.08:702][865]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
-[2016.04.16-15.33.08:702][865]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
-[2016.04.16-15.33.08:702][865]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.04.16-15.33.08:702][865]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.04.16-15.33.08:702][865]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.04.16-15.33.08:702][865]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.04.16-15.33.08:702][865]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.04.16-15.33.08:703][865]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.04.16-15.33.08:703][865]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.04.16-15.33.08:704][865]LogExit: Exiting.
-[2016.04.16-15.33.08:705][865]Log file closed, 04/16/16 16:33:08
+[2016.04.22-10.36.12:323][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.22-10.36.12:323][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.22-10.36.12:335][  0]LogInit: Computer: UNICRON
+[2016.04.22-10.36.12:335][  0]LogInit: User: AdamEdinburgh
+[2016.04.22-10.36.12:335][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.04.22-10.36.12:335][  0]LogInit: High frequency timer resolution =3.312641 MHz
+[2016.04.22-10.36.12:335][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.04.22-10.36.12:335][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.22-10.36.12:335][  0]LogMemory: Process Physical Memory: 317.41 MB used, 317.41 MB peak
+[2016.04.22-10.36.12:335][  0]LogMemory: Process Virtual Memory: 316.67 MB used, 316.67 MB peak
+[2016.04.22-10.36.12:336][  0]LogMemory: Physical Memory: 4910.15 MB used, 8072.55 MB total
+[2016.04.22-10.36.12:336][  0]LogMemory: Virtual Memory: 698.30 MB used, 134217728.00 MB total
+[2016.04.22-10.36.12:363][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.04.22-10.36.12:762][  0]LogD3D11RHI: D3D11 adapters:
+[2016.04.22-10.36.12:793][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.04.22-10.36.12:793][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 1 output[s]
+[2016.04.22-10.36.12:800][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.04.22-10.36.12:800][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
+[2016.04.22-10.36.12:802][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.04.22-10.36.12:802][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
+[2016.04.22-10.36.12:802][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.04.22-10.36.12:807][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.04.22-10.36.12:808][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.04.22-10.36.12:808][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.04.22-10.36.12:808][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.04.22-10.36.12:808][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.22-10.36.12:820][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.22-10.36.12:831][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Intermediate/Shaders/WorkingDirectory/7216/).
+[2016.04.22-10.36.12:832][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADAMED~1/AppData/Local/Temp/UnrealShaderWorkingDir/F75389224596074D527D08A666797BAD/'.
+[2016.04.22-10.36.12:832][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.04.22-10.36.14:145][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.04.22-10.36.14:149][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.04.22-10.36.14:153][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.04.22-10.36.14:157][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.04.22-10.36.14:162][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.04.22-10.36.14:165][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.04.22-10.36.14:169][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.04.22-10.36.14:172][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.04.22-10.36.14:175][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.04.22-10.36.14:178][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.04.22-10.36.14:181][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.04.22-10.36.14:187][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.04.22-10.36.14:187][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.04.22-10.36.14:188][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.04.22-10.36.14:206][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.04.22-10.36.14:209][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.04.22-10.36.14:211][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.04.22-10.36.14:215][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.04.22-10.36.14:218][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.04.22-10.36.14:218][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.22-10.36.14:285][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.22-10.36.14:822][  0]LogDerivedDataCache: Loaded boot cache 0.54s 50MB C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.22-10.36.14:822][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.04.22-10.36.14:822][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.22-10.36.14:822][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.22-10.36.14:822][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.04.22-10.36.14:822][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.04.22-10.36.14:837][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.22-10.36.14:849][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.22-10.36.15:012][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.22-10.36.15:013][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.04.22-10.36.15:174][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.04.22-10.36.15:366][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.22-10.36.15:366][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.22-10.36.15:366][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.04.22-10.36.16:374][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.04.22-10.36.16:374][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.04.22-10.36.16:374][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.04.22-10.36.16:380][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.22-10.36.16:538][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.22-10.36.16:538][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.04.22-10.36.19:453][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.22-10.36.19:453][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.22-10.36.19:453][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.22-10.36.19:453][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.22-10.36.19:453][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.04.22-10.36.19:453][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.04.22-10.36.30:780][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.22-10.36.30:880][  0]LogAssetRegistry: FAssetRegistry took 0.0214 seconds to start up
+[2016.04.22-10.36.31:217][  0]SourceControl: Info Source control is disabled
+[2016.04.22-10.36.31:217][  0]SourceControl: Info Source control is disabled
+[2016.04.22-10.36.31:224][  0]SourceControl: Info Source control is disabled
+[2016.04.22-10.36.31:230][  0]SourceControl: Info Source control is disabled
+[2016.04.22-10.36.31:514][  0]LogEngine: Initializing Engine...
+[2016.04.22-10.36.31:515][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-031B5D7F
+[2016.04.22-10.36.31:645][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.22-10.36.31:660][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.22-10.36.31:671][  0]LogInit: FAudioDevice initialized.
+[2016.04.22-10.36.31:697][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.04.22-10.36.31:702][  0]LogInit: Texture streaming: Enabled
+[2016.04.22-10.36.31:722][  0]LogInit: Transaction tracking system initialized
+[2016.04.22-10.36.31:741][  0]BlueprintLog: New page: Editor Load
+[2016.04.22-10.36.31:825][  0]LocalizationService: Info Localization service is disabled
+[2016.04.22-10.36.31:899][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.04.22-10.36.31:899][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.04.22-10.36.31:899][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.04.22-10.36.31:978][  0]LogConsoleResponse:Display: 
+[2016.04.22-10.36.33:718][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.04.22-10.36.33:718][  0]LogCook:Display: Mobile HDR setting 1
+[2016.04.22-10.36.33:718][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.22-10.36.33:905][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/' took 0.01s
+[2016.04.22-10.36.33:905][  0]SourceControl: Info Source control is disabled
+[2016.04.22-10.36.33:905][  0]Cmd: MAP LOAD FILE="../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.22-10.36.33:906][  0]LightingResults: New page: Lighting Build
+[2016.04.22-10.36.33:908][  0]MapCheck: New page: Map Check
+[2016.04.22-10.36.33:908][  0]LightingResults: New page: Lighting Build
+[2016.04.22-10.36.34:796][  0]ImportText (HandWorldLocation): Missing opening parenthesis: 
+[2016.04.22-10.36.34:796][  0]ImportText (World Rotation): Missing opening parenthesis: 
+[2016.04.22-10.36.34:955][  0]ImportText (HandWorldLocation): Missing opening parenthesis: 
+[2016.04.22-10.36.34:955][  0]ImportText (World Rotation): Missing opening parenthesis: 
+[2016.04.22-10.36.35:571][  0]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.22-10.36.35:691][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.22-10.36.35:692][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.04.22-10.36.35:730][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.243ms to complete.
+[2016.04.22-10.36.35:730][  0]LogFileHelpers: Loading map 'MainLevel' took 1.824
+[2016.04.22-10.36.35:853][  0]LogCollectionManager: Loaded 0 collections in 0.001609 seconds
+[2016.04.22-10.36.35:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/Collections/' took 0.01s
+[2016.04.22-10.36.35:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Developers/AdamEdinburgh/Collections/' took 0.01s
+[2016.04.22-10.36.35:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Collections/' took 0.01s
+[2016.04.22-10.36.35:891][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.04.22-10.36.35:897][  0]LogContentBrowser: Native class hierarchy populated in 0.0059 seconds. Added 1979 classes and 343 folders.
+[2016.04.22-10.36.35:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.04.22-10.36.35:900][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.04.22-10.36.35:901][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0003 seconds. Added 12 classes and 0 folders.
+[2016.04.22-10.36.35:904][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.22-10.36.35:909][  0]LogContentBrowser: Native class hierarchy updated for 'SuperSearch' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.22-10.36.35:969][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.04.22-10.36.35:972][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.04.22-10.36.36:027][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.22-10.36.36:030][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.22-10.36.36:054][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2016.04.22-10.36.36:054][  0]LogLoad: Full Startup: 24.99 seconds (BP compile: 0.46 seconds)
+[2016.04.22-10.36.36:054][  0]LogExternalProfiler:Warning: No registered external profiler was matched with a command-line switch (or the DLL could not be loaded).  External profiling features will not be available.
+[2016.04.22-10.36.36:394][  0]LogOcInput: OculusInput pre-init called
+[2016.04.22-10.36.36:402][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.3.2
+[2016.04.22-10.36.36:419][  0]LogAssetRegistry: Asset discovery search completed in 5.5611 seconds
+[2016.04.22-10.36.36:419][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2016.04.22-10.36.36:419][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2016.04.22-10.36.36:453][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.04.22-10.36.36:489][  0]LogRenderer: Reallocating scene render targets to support 980x980 (Frame:1).
+[2016.04.22-10.37.22:072][137]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.37.22:072][137]BlueprintLog: New page: Pre-Play auto-recompile
+[2016.04.22-10.37.22:072][137]LogPlayLevel: [PlayLevel] Compiling WSMacroLib before play...
+[2016.04.22-10.37.22:202][137]ImportText (HandWorldLocation): Missing opening parenthesis: 
+[2016.04.22-10.37.22:202][137]ImportText (World Rotation): Missing opening parenthesis: 
+[2016.04.22-10.37.22:216][137]LogActorComponent: UnregisterComponent: (/Engine/Transient.PhysicsHandle_GEN_VARIABLE) Not registered. Aborting.
+[2016.04.22-10.37.22:260][137]LogPlayLevel: PlayLevel: Blueprint regeneration took 188 ms (2 blueprints)
+[2016.04.22-10.37.22:260][137]LogPlayLevel: [PlayLevel] Compiling PlayerDummy before play...
+[2016.04.22-10.37.22:609][137]ImportText (HandWorldLocation): Missing opening parenthesis: 
+[2016.04.22-10.37.22:609][137]ImportText (World Rotation): Missing opening parenthesis: 
+[2016.04.22-10.37.22:720][137]LogPlayLevel: PlayLevel: Blueprint regeneration took 648 ms (5 blueprints)
+[2016.04.22-10.37.22:720][137]LogPlayLevel: [PlayLevel] Compiling DeformingWorldSegment before play...
+[2016.04.22-10.37.22:789][137]LogPlayLevel: PlayLevel: Blueprint regeneration took 717 ms (5 blueprints)
+[2016.04.22-10.37.22:789][137]LogPlayLevel: [PlayLevel] Compiling WorldShiftManager before play...
+[2016.04.22-10.37.22:847][137]LogPlayLevel: PlayLevel: Blueprint regeneration took 775 ms (5 blueprints)
+[2016.04.22-10.37.22:847][137]LogPlayLevel: [PlayLevel] Compiling MainLevel before play...
+[2016.04.22-10.37.22:905][137]LogPlayLevel: PlayLevel: Blueprint regeneration took 833 ms (5 blueprints)
+[2016.04.22-10.37.22:984][137]PIE: New page: PIE session: MainLevel (22 Apr 2016 11:37:22)
+[2016.04.22-10.37.22:984][137]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.22-10.37.22:992][137]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008231s)
+[2016.04.22-10.37.22:993][137]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.22-10.37.22:993][137]LogPlayLevel: PIE: World Init took: (0.000560s)
+[2016.04.22-10.37.22:993][137]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.008964s)
+[2016.04.22-10.37.23:014][137]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.22-10.37.23:024][137]LogInit: FAudioDevice initialized.
+[2016.04.22-10.37.23:170][137]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.22-10.37.23:173][137]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.22-11.37.23
+[2016.04.22-10.37.23:174][137]LogWorld: Bringing up level for play took: 0.002865
+[2016.04.22-10.37.23:177][137]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 9 classes and 0 folders.
+[2016.04.22-10.37.23:182][137]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 1.654
+[2016.04.22-10.37.23:182][137]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.37.23:192][139]LogRenderer: Reallocating scene render targets to support 3024x1680 (Frame:8).
+[2016.04.22-10.37.23:204][139]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 599/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.38.59:603][ 57]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.38.59:741][ 57]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.39.02:890][274]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.39.02:890][274]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.22-10.39.02:890][274]PIE: New page: PIE session: MainLevel (22 Apr 2016 11:39:02)
+[2016.04.22-10.39.02:890][274]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.22-10.39.02:899][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009492s)
+[2016.04.22-10.39.02:900][274]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.22-10.39.02:900][274]LogPlayLevel: PIE: World Init took: (0.000528s)
+[2016.04.22-10.39.02:900][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.010191s)
+[2016.04.22-10.39.02:921][274]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.22-10.39.02:931][274]LogInit: FAudioDevice initialized.
+[2016.04.22-10.39.03:028][274]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.22-10.39.03:031][274]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.22-11.39.03
+[2016.04.22-10.39.03:032][274]LogWorld: Bringing up level for play took: 0.003193
+[2016.04.22-10.39.03:037][274]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel -0.49
+[2016.04.22-10.39.03:037][274]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.39.03:062][276]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 857/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.41.27:559][318]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.41.27:699][318]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.41.33:949][740]LogEditorViewport: Clicking on Actor (context menu): PlayerDummy_C (PlayerDummy)
+[2016.04.22-10.41.35:005][854]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 787/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.41.35:942][909]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 807/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.41.36:325][911]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 108 classes and 0 folders.
+[2016.04.22-10.41.50:561][321]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.41.51:653][384]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.41.54:208][516]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.41.55:086][568]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.41.57:782][794]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.41.58:942][873]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.00:252][953]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.01:058][  8]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.01:884][ 66]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.03:065][151]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.03:828][207]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.04:924][282]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.07:283][416]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.10:091][588]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.12:073][696]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.13:344][774]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.14:700][855]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.15:458][902]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.16:421][962]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.17:241][ 16]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.17:765][ 49]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.18:079][ 68]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.29:485][634]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.30:676][719]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.31:352][765]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.32:462][832]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.35:152][ 50]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.36:736][139]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.38:821][281]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.39:241][323]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.39:754][359]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.40:239][384]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.42:675][549]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.43:332][594]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.48:345][904]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.49:910][978]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.52:735][135]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.54:076][240]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.55:642][344]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.56:836][424]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.42.58:741][549]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.00:452][686]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.01:830][785]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.02:158][804]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.03:941][957]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.04:248][975]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.11:281][311]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.11:691][334]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.12:307][379]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.13:570][468]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.14:026][492]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.18:360][704]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.22:185][917]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 574/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.23:936][ 54]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 574/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.24:881][131]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.26:358][221]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.27:061][257]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.22-10.43.27:418][257]ImportText (HandWorldLocation): Missing opening parenthesis: 
+[2016.04.22-10.43.27:418][257]ImportText (World Rotation): Missing opening parenthesis: 
+[2016.04.22-10.43.27:594][257]BlueprintEditorCompileResults: Info [0436.53] Compile of PlayerDummy successful! [in 533 ms]
+[2016.04.22-10.43.27:616][258]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 574/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.29:588][280]LogSavePackage: Save=1301.79ms
+[2016.04.22-10.43.29:588][280]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyE2C847EC47FEC28980896DB18B4B843B.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.22-10.43.29:593][280]LogSavePackage: Total save time: 1320.91ms
+[2016.04.22-10.43.29:593][280]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.22-10.43.29:621][282]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 574/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.30:811][385]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.31:777][460]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.33:012][523]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.36:020][651]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.47:504][137]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.49:464][215]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.51:080][277]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.43.51:671][279]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2016.04.22-10.44.13:819][308]LogSavePackage: Save=11.18ms
+[2016.04.22-10.44.13:819][308]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/invert_sphere_AnimE9207BBD4BE642F3E1F0D5824C8CA701.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/teleport/invert_sphere_Anim.uasset'
+[2016.04.22-10.44.13:821][308]LogSavePackage: Total save time: 21.35ms
+[2016.04.22-10.44.13:821][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/teleport/invert_sphere_Anim.uasset
+[2016.04.22-10.44.40:795][824]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.42:199][914]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.42:837][961]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.43:434][  7]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.44:267][ 71]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.46:541][280]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.47:642][356]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.48:624][442]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.50:607][587]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.51:900][694]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.53:469][796]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.56:603][976]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.57:784][ 52]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.44.59:221][182]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.02:771][573]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.09:279][906]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.10:626][  7]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.14:487][392]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.15:208][437]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.17:948][496]LogSavePackage: Save=1299.15ms
+[2016.04.22-10.45.17:948][496]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyB77479B74F3CC0225B3A0AB3A5ADDE9A.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.22-10.45.17:951][496]LogSavePackage: Total save time: 1310.80ms
+[2016.04.22-10.45.17:951][496]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.22-10.45.17:973][498]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.18:832][562]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.19:436][612]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.20:221][669]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.28:258][818]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.29:247][894]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.30:525][  9]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 560/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.31:677][ 65]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 848/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.32:493][ 94]LogSavePackage: Save=117.52ms
+[2016.04.22-10.45.32:494][ 94]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevel0BA813F149DE2B1714A374BA5292E5EA.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
+[2016.04.22-10.45.32:496][ 94]LogSavePackage: Total save time: 129.59ms
+[2016.04.22-10.45.32:496][ 94]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
+[2016.04.22-10.45.32:550][ 96]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.45.33:078][121]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.45.33:078][121]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.22-10.45.33:078][121]PIE: New page: PIE session: MainLevel (22 Apr 2016 11:45:33)
+[2016.04.22-10.45.33:078][121]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.22-10.45.33:088][121]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009374s)
+[2016.04.22-10.45.33:088][121]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.22-10.45.33:088][121]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2016.04.22-10.45.33:089][121]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.010209s)
+[2016.04.22-10.45.33:142][121]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.22-10.45.33:151][121]LogInit: FAudioDevice initialized.
+[2016.04.22-10.45.33:248][121]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.22-10.45.33:251][121]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.22-11.45.33
+[2016.04.22-10.45.33:251][121]LogWorld: Bringing up level for play took: 0.002878
+[2016.04.22-10.45.33:257][121]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel -0.27
+[2016.04.22-10.45.33:257][121]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.45.33:291][123]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 897/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.48.21:144][867]LogBlueprintUserMessages: [PlayerDummy_657] WorldShifting!
+[2016.04.22-10.48.30:133][212]LogBlueprintUserMessages: [PlayerDummy_657] Finished WorldShifting!
+[2016.04.22-10.48.35:382][410]LogBlueprintUserMessages: [PlayerDummy_657] WorldUnshifting!
+[2016.04.22-10.48.44:350][758]LogBlueprintUserMessages: [PlayerDummy_657] Finished WorldShifting!
+[2016.04.22-10.48.52:185][ 60]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.48.52:396][ 60]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.49.05:570][366]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.08:583][510]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.10:521][609]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.11:338][652]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.15:173][847]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.16:039][893]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.17:193][941]LogEditorViewport: Clicking on Actor (LMB): PlayerDummy_C (PlayerDummy)
+[2016.04.22-10.49.24:825][261]LogEditorViewport: Clicking on Actor (LMB): PlayerDummy_C (PlayerDummy)
+[2016.04.22-10.49.25:796][305]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.27:130][399]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.27:943][457]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.29:540][557]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.30:514][603]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.33:172][726]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.34:104][775]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.36:728][916]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.38:651][ 19]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.40:597][123]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.41:331][178]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.42:320][244]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.43:123][293]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.44:137][344]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.46:356][454]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.48:070][552]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.49:805][653]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.50:545][702]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.51:647][766]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.53:686][876]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.49.59:566][491]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.00:918][625]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.01:759][694]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.03:002][776]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.03:842][841]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.04:444][887]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.06:834][ 73]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.07:739][152]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.08:276][192]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.08:986][240]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.09:741][299]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.10:495][360]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.11:319][401]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.12:351][475]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.13:585][569]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.14:037][594]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.14:312][611]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.16:148][790]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.17:591][876]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.18:353][932]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.18:932][962]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.19:391][998]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.21:813][ 43]LogSavePackage: Save=1290.85ms
+[2016.04.22-10.50.21:813][ 43]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummyBE0931C04A7E77AE754AABB1F5AF8A24.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.22-10.50.21:817][ 43]LogSavePackage: Total save time: 1312.40ms
+[2016.04.22-10.50.21:817][ 43]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.22-10.50.21:834][ 44]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.22:699][108]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.24:000][192]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.25:825][293]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.26:075][308]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.28:516][506]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.30:747][695]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.32:545][783]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.37:627][ 31]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.38:209][ 61]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.41:929][278]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.43:493][429]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.43:930][461]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.48:964][989]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 574/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.51:119][123]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.52:293][222]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.54:802][450]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 574/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.55:288][477]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.56:318][546]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.57:220][617]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.57:566][638]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.58:820][726]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.50.59:281][752]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.51.00:717][825]BlueprintLog: New page: Compile PlayerDummy
+[2016.04.22-10.51.01:086][825]ImportText (HandWorldLocation): Missing opening parenthesis: 
+[2016.04.22-10.51.01:086][825]ImportText (World Rotation): Missing opening parenthesis: 
+[2016.04.22-10.51.01:251][825]BlueprintEditorCompileResults: Info [0890.19] Compile of PlayerDummy successful! [in 534 ms]
+[2016.04.22-10.51.01:272][826]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 574/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.51.03:116][845]LogSavePackage: Save=1283.78ms
+[2016.04.22-10.51.03:116][845]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy6047CD1348781AC78BBDD49388E7399D.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.22-10.51.03:120][845]LogSavePackage: Total save time: 1293.25ms
+[2016.04.22-10.51.03:120][845]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.22-10.51.03:150][846]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 574/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.51.04:037][891]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.51.05:109][929]LogSavePackage: Save=117.89ms
+[2016.04.22-10.51.05:109][929]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevel8A6A6EA5461326E7C279388DA2CE9A1F.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
+[2016.04.22-10.51.05:112][929]LogSavePackage: Total save time: 129.43ms
+[2016.04.22-10.51.05:112][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
+[2016.04.22-10.51.05:178][930]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.51.06:360][982]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.51.06:360][982]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.04.22-10.51.06:360][982]PIE: New page: PIE session: MainLevel (22 Apr 2016 11:51:06)
+[2016.04.22-10.51.06:360][982]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MainLevel
+[2016.04.22-10.51.06:369][982]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009094s)
+[2016.04.22-10.51.06:370][982]LogAIModule: Creating AISystem for world MainLevel
+[2016.04.22-10.51.06:370][982]LogPlayLevel: PIE: World Init took: (0.000599s)
+[2016.04.22-10.51.06:370][982]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MainLevel.MainLevel to /Game/Levels/UEDPIE_0_MainLevel.MainLevel (0.009867s)
+[2016.04.22-10.51.06:423][982]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.22-10.51.06:433][982]LogInit: FAudioDevice initialized.
+[2016.04.22-10.51.06:534][982]LogWorld: Game class is 'WSGameMode_C'
+[2016.04.22-10.51.06:537][982]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MainLevel.MainLevel up for play (max tick rate 0) at 2016.04.22-11.51.06
+[2016.04.22-10.51.06:538][982]LogWorld: Bringing up level for play took: 0.002667
+[2016.04.22-10.51.06:543][982]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_MainLevel 1.015
+[2016.04.22-10.51.06:543][982]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.51.06:558][984]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 897/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.51.31:035][931]LogBlueprintUserMessages: [PlayerDummy_657] WorldShifting!
+[2016.04.22-10.51.40:024][269]LogBlueprintUserMessages: [PlayerDummy_657] Finished WorldShifting!
+[2016.04.22-10.52.07:805][321]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.52.08:015][321]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/MainLevel.MainLevel:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel' with GeneratedClass '/Game/Levels/MainLevel.MainLevel_C' with ClassGeneratedBy '/Game/Levels/MainLevel.MainLevel:PersistentLevel.MainLevel'
+[2016.04.22-10.52.13:151][530]LogSavePackage: Save=117.65ms
+[2016.04.22-10.52.13:151][530]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/MainLevel7A7FC89A48B1D01A580139B759917B69.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap'
+[2016.04.22-10.52.13:153][530]LogSavePackage: Total save time: 124.38ms
+[2016.04.22-10.52.13:153][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/Levels/MainLevel.umap
+[2016.04.22-10.52.13:198][532]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.15:971][680]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.17:623][786]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.18:892][879]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.20:046][950]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.23:146][124]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.24:009][168]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.25:170][226]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.30:283][405]LogSavePackage: Save=1276.27ms
+[2016.04.22-10.52.30:283][405]LogSavePackage: Moving '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Saved/PlayerDummy7399A7794BF236EECCFC63B8C0C74216.tmp' to '../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset'
+[2016.04.22-10.52.30:288][405]LogSavePackage: Total save time: 1286.72ms
+[2016.04.22-10.52.30:288][405]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Content/FromPrototype/Blueprints/PlayerDummy.uasset
+[2016.04.22-10.52.30:329][406]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.31:725][479]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.33:850][577]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.34:390][616]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.36:444][733]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.37:520][806]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.38:786][889]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.40:280][984]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.41:921][ 95]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.43:821][198]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.45:069][279]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.47:500][410]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.49:257][525]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.50:394][606]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.51:342][679]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.52:126][730]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.53:049][791]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.53:887][844]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.55:261][929]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.56:937][ 38]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.58:336][123]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.59:144][179]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.52.59:604][214]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.00:228][267]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.00:932][320]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.01:483][362]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.02:023][403]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.02:620][450]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.03:299][501]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.03:748][534]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.04:136][564]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.04:652][606]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.05:332][654]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.05:827][691]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.06:229][724]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.06:696][765]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.07:195][804]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.07:675][842]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.08:035][867]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.08:436][894]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.08:976][936]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.09:568][980]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.10:067][ 17]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.10:448][ 49]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.10:819][ 80]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.11:301][117]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.11:729][152]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.12:099][180]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.12:498][213]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.12:928][248]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.13:345][280]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.13:776][313]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.14:085][340]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.14:459][373]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.14:919][410]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.15:419][449]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.15:816][477]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.16:217][507]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.16:725][547]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.17:226][588]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.17:700][625]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.18:047][655]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.18:473][691]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.18:862][723]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.19:317][759]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.19:761][793]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.20:146][827]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.20:560][865]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.21:136][915]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.21:717][962]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.22:095][989]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.22:445][ 13]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.22:869][ 46]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.23:361][ 84]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.23:771][115]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.24:152][147]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.24:601][186]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.25:072][226]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.25:537][262]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.25:942][294]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.26:329][324]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.26:658][350]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.27:108][383]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.27:572][419]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.27:976][451]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.28:359][484]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.28:775][517]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.29:166][549]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.29:523][577]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.29:891][605]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.30:228][629]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.30:578][656]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.31:015][689]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.31:458][724]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.31:899][759]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.32:320][793]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.32:696][823]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.33:131][854]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.33:529][884]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.33:875][909]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.34:194][934]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.34:701][974]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.35:202][ 11]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.35:591][ 40]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.36:007][ 75]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.36:464][109]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.36:892][142]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.37:295][174]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.37:661][203]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.38:044][231]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.38:407][258]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.38:844][291]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.39:341][331]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.39:761][363]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.40:179][397]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.40:535][421]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.40:913][450]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.41:300][480]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.41:632][505]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.41:894][523]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.42:399][561]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.42:880][599]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.43:299][633]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.43:727][668]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.44:193][703]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.44:692][740]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.53.45:247][784]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.55.19:391][246]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.55.20:063][279]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 846/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.55.21:960][395]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.55.22:760][459]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.55.23:756][540]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.55.25:486][677]LogRenderTargetPool:Warning: r.RenderTargetPoolMin exceeded 558/400 MB (ok in editor, bad on fixed memory platform)
+[2016.04.22-10.55.28:315][799]Cmd: QUIT_EDITOR
+[2016.04.22-10.55.29:022][799]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.04.22-10.55.29:058][799]LogExit: Preparing to exit.
+[2016.04.22-10.55.30:237][799]LogExit: Editor shut down
+[2016.04.22-10.55.30:237][799]LogExit: Transaction tracking system shut down
+[2016.04.22-10.55.30:381][799]LogObj: Freed 0b from 0 cluster array pools.
+[2016.04.22-10.55.30:381][799]LogExit: Object subsystem successfully closed.
+[2016.04.22-10.55.30:399][799]LogD3D11RHI: Shutdown
+[2016.04.22-10.55.30:399][799]LogD3D11RHI: CleanupD3DDevice
+[2016.04.22-10.55.30:401][799]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.04.22-10.55.30:467][799]LogDerivedDataCache: Shutdown
+[2016.04.22-10.55.30:468][799]LogModuleManager: Shutting down and abandoning module BlueprintGraph (206)
+[2016.04.22-10.55.30:468][799]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (205)
+[2016.04.22-10.55.30:468][799]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (204)
+[2016.04.22-10.55.30:468][799]LogModuleManager: Shutting down and abandoning module CrashTracker (203)
+[2016.04.22-10.55.30:468][799]LogModuleManager: Shutting down and abandoning module SceneOutliner (202)
+[2016.04.22-10.55.30:468][799]LogModuleManager: Shutting down and abandoning module SuperSearch (201)
+[2016.04.22-10.55.30:468][799]LogModuleManager: Shutting down and abandoning module WidgetCarousel (200)
+[2016.04.22-10.55.30:468][799]LogModuleManager: Shutting down and abandoning module AddContentDialog (199)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module GameplayTags (198)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module EditorWidgets (197)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module CollectionManager (196)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module StatsViewer (195)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module FoliageEdit (194)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module LandscapeEditor (193)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module ActorPickerMode (192)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module GeometryMode (191)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module TextureAlignMode (190)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module BspMode (189)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module PlacementMode (188)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module AutomationWorker (187)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module CharacterAI (186)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module SmartSnapping (185)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module ViewportSnapping (184)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module LogVisualizer (183)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (182)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module IntroTutorials (181)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (180)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (179)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (178)
+[2016.04.22-10.55.30:469][799]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (177)
+[2016.04.22-10.55.31:190][799]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (176)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (175)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (174)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module MergeActors (173)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module SizeMap (172)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module TreeMap (171)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module ReferenceViewer (170)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module LocalizationService (169)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (168)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module HardwareTargeting (167)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (166)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module UndoHistory (165)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module UserFeedback (164)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module XmlParser (163)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module Blutility (162)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (161)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (160)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module InputBindingEditor (159)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (158)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module SettingsEditor (157)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module ProjectLauncher (156)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module SessionFrontend (155)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module ProfilerClient (154)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (153)
+[2016.04.22-10.55.31:191][799]LogModuleManager: Shutting down and abandoning module DeviceManager (152)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module AutomationController (151)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module AutomationWindow (150)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module Layers (149)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (148)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module DetailCustomizations (147)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module PackagesDialog (146)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module Persona (145)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module Kismet (144)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module GraphEditor (143)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module ClassViewer (142)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module Toolbox (141)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module ModuleUI (140)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module MovieSceneTools (139)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module OutputLog (138)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module GammaUI (137)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module Documentation (136)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (135)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module AnalyticsET (134)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module Analytics (133)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module PortalServices (132)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module PortalRpc (131)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module MessagingRpc (130)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module AITestSuite (129)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module GameplayDebugger (128)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module AIModule (127)
+[2016.04.22-10.55.31:223][799]LogModuleManager: Shutting down and abandoning module ProfilerService (126)
+[2016.04.22-10.55.31:244][799]LogModuleManager: Shutting down and abandoning module TaskGraph (125)
+[2016.04.22-10.55.31:244][799]LogModuleManager: Shutting down and abandoning module SlateRemote (124)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module SteamVRController (123)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module SteamVR (122)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (121)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module OculusLibrary (120)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module OculusInput (119)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (118)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module CableComponent (117)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (116)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (115)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module HTML5Networking (114)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (113)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module PluginBrowser (112)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module EpicSurvey (111)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module DesktopPlatform (110)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (109)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module UObjectPlugin (108)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (107)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (106)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module SourceControl (105)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module GitSourceControl (104)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (103)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (102)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (101)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module MeshPaint (100)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.04.22-10.55.31:245][799]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.04.22-10.55.31:246][799]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (96)
+[2016.04.22-10.55.31:246][799]LogModuleManager: Shutting down and abandoning module AssetRegistry (95)
+[2016.04.22-10.55.31:380][799]LogModuleManager: Shutting down and abandoning module ContentBrowser (94)
+[2016.04.22-10.55.31:380][799]LogModuleManager: Shutting down and abandoning module Paper2DEditor (93)
+[2016.04.22-10.55.31:380][799]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.04.22-10.55.31:481][799]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.04.22-10.55.31:483][799]LogDerivedDataCache: Shutdown
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.04.22-10.55.31:483][799]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.04.22-10.55.31:484][799]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.04.22-10.55.31:484][799]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.04.22-10.55.31:484][799]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.04.22-10.55.31:484][799]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.04.22-10.55.31:484][799]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.04.22-10.55.31:484][799]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.04.22-10.55.33:485][799]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.04.22-10.55.33:485][799]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.04.22-10.55.33:486][799]LogHMD: Oculus shutdown.
+[2016.04.22-10.55.33:486][799]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.04.22-10.55.33:486][799]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.04.22-10.55.33:486][799]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.04.22-10.55.33:486][799]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.04.22-10.55.33:486][799]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.22-10.55.33:489][799]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.22-10.55.33:491][799]LogExit: Exiting.
+[2016.04.22-10.55.33:492][799]Log file closed, 04/22/16 11:55:33
