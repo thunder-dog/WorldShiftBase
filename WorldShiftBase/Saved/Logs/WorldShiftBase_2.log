@@ -1,0 +1,266 @@
+﻿Log file open, 05/03/16 13:08:08
+LogInit:Display: Running engine for game: WorldShiftBase
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-537952802) SRandInit(-537952801).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+LogStats: Stats thread started at 0.082130
+LogModuleManager:Warning: Found module file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Plugins/VictoryPlugin/Binaries/Win64/UE4Editor-VictoryBPLibrary.dll (API version 2843242), but it was incompatible with the current engine API version (2927265). This is likely a stale module that must be recompiled.
+LogInit: Version: 4.11.2-2946394+++UE4+Release-4.11
+LogInit: API Version: 2927265
+LogInit: Compiled (64-bit): Apr 18 2016 02:18:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.11
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.11/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.05.03-12.08.15:467][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.03-12.08.15:467][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.05.03-12.08.15:485][  0]LogInit: Computer: UNICRON
+[2016.05.03-12.08.15:485][  0]LogInit: User: AdamEdinburgh
+[2016.05.03-12.08.15:485][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.05.03-12.08.15:485][  0]LogInit: High frequency timer resolution =3.312643 MHz
+[2016.05.03-12.08.15:485][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.05.03-12.08.15:485][  0]LogMemory: Platform Memory Stats for Windows
+[2016.05.03-12.08.15:485][  0]LogMemory: Process Physical Memory: 315.00 MB used, 315.00 MB peak
+[2016.05.03-12.08.15:485][  0]LogMemory: Process Virtual Memory: 314.80 MB used, 314.80 MB peak
+[2016.05.03-12.08.15:485][  0]LogMemory: Physical Memory: 2749.04 MB used, 8072.55 MB total
+[2016.05.03-12.08.15:485][  0]LogMemory: Virtual Memory: 677.42 MB used, 134217728.00 MB total
+[2016.05.03-12.08.15:670][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.05.03-12.08.16:051][  0]LogD3D11RHI: D3D11 adapters:
+[2016.05.03-12.08.16:165][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2016.05.03-12.08.16:165][  0]LogD3D11RHI:       4007MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 1 output[s]
+[2016.05.03-12.08.16:184][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 4600' (Feature Level 11_0)
+[2016.05.03-12.08.16:184][  0]LogD3D11RHI:       112MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
+[2016.05.03-12.08.16:185][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.05.03-12.08.16:185][  0]LogD3D11RHI:       0MB of dedicated video memory, 0MB of dedicated system memory, and 4036MB of shared system memory, 0 output[s]
+[2016.05.03-12.08.16:185][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.05.03-12.08.16:188][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.05.03-12.08.16:188][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2016.05.03-12.08.16:188][  0]LogD3D11RHI:   Driver Version: Unknown (internal Unknown)
+[2016.05.03-12.08.16:188][  0]LogD3D11RHI:      Driver Date: Unknown
+[2016.05.03-12.08.16:188][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.05.03-12.08.16:198][  0]LogD3D11RHI: Async texture creation enabled
+[2016.05.03-12.08.16:207][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Intermediate/Shaders/WorkingDirectory/3764/).
+[2016.05.03-12.08.16:207][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ADAMED~1/AppData/Local/Temp/UnrealShaderWorkingDir/BBFE64D84F466EFA31C4899F3210B549/'.
+[2016.05.03-12.08.16:207][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.05.03-12.08.17:702][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.05.03-12.08.17:706][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.05.03-12.08.17:710][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.05.03-12.08.17:714][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.05.03-12.08.17:718][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.05.03-12.08.17:723][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.05.03-12.08.17:725][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.05.03-12.08.17:728][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.05.03-12.08.17:731][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.05.03-12.08.17:733][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.05.03-12.08.17:736][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.05.03-12.08.17:741][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.05.03-12.08.17:741][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.05.03-12.08.17:742][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.05.03-12.08.17:776][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.05.03-12.08.17:779][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.05.03-12.08.17:781][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.05.03-12.08.17:783][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.05.03-12.08.17:789][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.05.03-12.08.17:789][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.05.03-12.08.18:013][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.05.03-12.08.18:058][  0]LogDerivedDataCache: Loaded boot cache 0.04s 50MB C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc.
+[2016.05.03-12.08.18:058][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/4.11/DerivedDataCache/Boot.ddc
+[2016.05.03-12.08.18:058][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.05.03-12.08.18:058][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.05.03-12.08.18:058][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.05.03-12.08.18:058][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.05.03-12.08.18:074][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.05.03-12.08.18:085][  0]LogDerivedDataCache: Using Local data cache path C:/Users/AdamEdinburgh/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.05.03-12.08.19:678][  0]LogModuleManager:Warning: Found module file ../../../../../../Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Plugins/VictoryPlugin/Binaries/Win64/UE4Editor-VictoryBPLibrary.dll (API version 2843242), but it was incompatible with the current engine API version (2927265). This is likely a stale module that must be recompiled.
+[2016.05.03-12.08.19:781][  0]LogInit: Selected Device Profile: [Windows]
+[2016.05.03-12.08.19:782][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.05.03-12.08.19:857][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2016.05.03-12.08.19:983][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.05.03-12.08.19:983][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.05.03-12.08.19:983][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.05.03-12.08.20:373][  0]LogUObjectArray: 27679 objects as part of root set at end of initial load.
+[2016.05.03-12.08.20:373][  0]LogUObjectAllocator: 5591592 out of 0 bytes used by permanent object pool.
+[2016.05.03-12.08.20:373][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.05.03-12.08.20:378][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.05.03-12.08.20:478][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.03-12.08.20:478][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.05.03-12.08.20:673][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.03-12.08.20:673][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.03-12.08.20:673][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.03-12.08.20:673][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.03-12.08.20:673][  0]LogStreaming:Warning: Failed to read file '../../../Engine/Content/Editor/Slate/Common/Selection_16x.png' error.
+[2016.05.03-12.08.20:673][  0]LogSlate: Could not find file for Slate resource: ../../../Engine/Content/Editor/Slate/Common/Selection_16x.png
+[2016.05.03-12.08.21:536][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Paper2D/MaskedUnlitSpriteMaterial' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Config/', '/Script/', or '/Temp/'
+[2016.05.03-12.08.21:536][  0]LogLinker:Warning: Can't find file '/Paper2D/MaskedUnlitSpriteMaterial'
+[2016.05.03-12.08.21:536][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Paper2D/MaskedUnlitSpriteMaterial' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Config/', '/Script/', or '/Temp/'
+[2016.05.03-12.08.21:536][  0]LogLinker:Warning: Can't find file '/Paper2D/MaskedUnlitSpriteMaterial'
+[2016.05.03-12.08.21:536][  0]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Paper2D/MaskedUnlitSpriteMaterial.MaskedUnlitSpriteMaterial'
+[2016.05.03-12.08.21:536][  0]Error: CDO Constructor (PaperSprite): Failed to find /Paper2D/MaskedUnlitSpriteMaterial
+
+[2016.05.03-12.08.21:537][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Paper2D/OpaqueUnlitSpriteMaterial' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Config/', '/Script/', or '/Temp/'
+[2016.05.03-12.08.21:537][  0]LogLinker:Warning: Can't find file '/Paper2D/OpaqueUnlitSpriteMaterial'
+[2016.05.03-12.08.21:537][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Paper2D/OpaqueUnlitSpriteMaterial' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Config/', '/Script/', or '/Temp/'
+[2016.05.03-12.08.21:537][  0]LogLinker:Warning: Can't find file '/Paper2D/OpaqueUnlitSpriteMaterial'
+[2016.05.03-12.08.21:537][  0]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Paper2D/OpaqueUnlitSpriteMaterial.OpaqueUnlitSpriteMaterial'
+[2016.05.03-12.08.21:537][  0]Error: CDO Constructor (PaperSprite): Failed to find /Paper2D/OpaqueUnlitSpriteMaterial
+
+[2016.05.03-12.08.21:537][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Paper2D/MaskedUnlitSpriteMaterial' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Config/', '/Script/', or '/Temp/'
+[2016.05.03-12.08.21:537][  0]LogLinker:Warning: Can't find file '/Paper2D/MaskedUnlitSpriteMaterial'
+[2016.05.03-12.08.21:537][  0]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Paper2D/MaskedUnlitSpriteMaterial.MaskedUnlitSpriteMaterial'
+[2016.05.03-12.08.21:537][  0]Error: CDO Constructor (PaperFlipbook): Failed to find /Paper2D/MaskedUnlitSpriteMaterial
+
+[2016.05.03-12.08.21:537][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Paper2D/DefaultPaperTerrainMaterial' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Config/', '/Script/', or '/Temp/'
+[2016.05.03-12.08.21:537][  0]LogLinker:Warning: Can't find file '/Paper2D/DefaultPaperTerrainMaterial'
+[2016.05.03-12.08.21:537][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Paper2D/DefaultPaperTerrainMaterial' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Config/', '/Script/', or '/Temp/'
+[2016.05.03-12.08.21:537][  0]LogLinker:Warning: Can't find file '/Paper2D/DefaultPaperTerrainMaterial'
+[2016.05.03-12.08.21:537][  0]LogUObjectGlobals:Warning: Failed to find object 'PaperTerrainMaterial /Paper2D/DefaultPaperTerrainMaterial.DefaultPaperTerrainMaterial'
+[2016.05.03-12.08.21:537][  0]Error: CDO Constructor (PaperTerrainComponent): Failed to find /Paper2D/DefaultPaperTerrainMaterial
+
+[2016.05.03-12.08.21:537][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Paper2D/MaskedUnlitSpriteMaterial' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Config/', '/Script/', or '/Temp/'
+[2016.05.03-12.08.21:537][  0]LogLinker:Warning: Can't find file '/Paper2D/MaskedUnlitSpriteMaterial'
+[2016.05.03-12.08.21:537][  0]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Paper2D/MaskedUnlitSpriteMaterial.MaskedUnlitSpriteMaterial'
+[2016.05.03-12.08.21:537][  0]Error: CDO Constructor (PaperTileMap): Failed to find /Paper2D/MaskedUnlitSpriteMaterial
+
+[2016.05.03-12.08.21:537][  0]LogPackageName:Error: DoesPackageExist: DoesPackageExist FAILED: '/Paper2D/MaskedUnlitSpriteMaterial' is not a standard unreal filename or a long path name. Reason: Path does not start with a valid root. Path must begin with: '/Engine/', '/Game/', '/Config/', '/Script/', or '/Temp/'
+[2016.05.03-12.08.21:537][  0]LogLinker:Warning: Can't find file '/Paper2D/MaskedUnlitSpriteMaterial'
+[2016.05.03-12.08.21:537][  0]LogUObjectGlobals:Warning: Failed to find object 'MaterialInterface /Paper2D/MaskedUnlitSpriteMaterial.MaskedUnlitSpriteMaterial'
+[2016.05.03-12.08.21:537][  0]Error: CDO Constructor (PaperTileMapComponent): Failed to find /Paper2D/MaskedUnlitSpriteMaterial
+
+[2016.05.03-12.08.21:537][  0]LogUObjectBase:Warning: -------------- Default Property warnings and errors:
+[2016.05.03-12.08.21:537][  0]LogUObjectBase:Warning: Error: CDO Constructor (PaperSprite): Failed to find /Paper2D/MaskedUnlitSpriteMaterial
+
+[2016.05.03-12.08.21:537][  0]LogUObjectBase:Warning: Error: CDO Constructor (PaperSprite): Failed to find /Paper2D/OpaqueUnlitSpriteMaterial
+
+[2016.05.03-12.08.21:537][  0]LogUObjectBase:Warning: Error: CDO Constructor (PaperFlipbook): Failed to find /Paper2D/MaskedUnlitSpriteMaterial
+
+[2016.05.03-12.08.21:537][  0]LogUObjectBase:Warning: Error: CDO Constructor (PaperTerrainComponent): Failed to find /Paper2D/DefaultPaperTerrainMaterial
+
+[2016.05.03-12.08.21:537][  0]LogUObjectBase:Warning: Error: CDO Constructor (PaperTileMap): Failed to find /Paper2D/MaskedUnlitSpriteMaterial
+
+[2016.05.03-12.08.21:537][  0]LogUObjectBase:Warning: Error: CDO Constructor (PaperTileMapComponent): Failed to find /Paper2D/MaskedUnlitSpriteMaterial
+
+[2016.05.03-12.08.27:946][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.03-12.08.27:962][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.05.03-12.08.28:022][  0]LogModuleManager:Warning: Found module file C:/Users/AdamEdinburgh/Documents/GitHub/WorldShiftBase/WorldShiftBase/Plugins/VictoryPlugin/Binaries/Win64/UE4Editor-VictoryBPLibrary.dll (API version 2843242), but it was incompatible with the current engine API version (2927265). This is likely a stale module that must be recompiled.
+[2016.05.03-12.08.28:237][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.03-12.08.33:190][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.05.03-12.08.33:226][  0]LogExit: Preparing to exit.
+[2016.05.03-12.08.34:110][  0]LogObj: Freed 0b from 0 cluster array pools.
+[2016.05.03-12.08.34:110][  0]LogExit: Object subsystem successfully closed.
+[2016.05.03-12.08.34:128][  0]LogD3D11RHI: Shutdown
+[2016.05.03-12.08.34:128][  0]LogD3D11RHI: CleanupD3DDevice
+[2016.05.03-12.08.34:146][  0]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.05.03-12.08.34:583][  0]LogDerivedDataCache: Shutdown
+[2016.05.03-12.08.34:583][  0]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (95)
+[2016.05.03-12.08.34:583][  0]LogModuleManager: Shutting down and abandoning module HotReload (94)
+[2016.05.03-12.08.34:583][  0]LogModuleManager: Shutting down and abandoning module UdpMessaging (92)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (91)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module Paper2D (90)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (89)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module Media (88)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module WmfMedia (87)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module MediaAssets (86)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (85)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (84)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (83)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (82)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module PropertyEditor (81)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (80)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module FunctionalTesting (79)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (78)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module Sequencer (75)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module AssetTools (74)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module UMGEditor (73)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module UMG (72)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module SlateReflector (71)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module Slate (70)
+[2016.05.03-12.08.34:685][  0]LogModuleManager: Shutting down and abandoning module EditorStyle (69)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module SessionServices (68)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (67)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (66)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module XAudio2 (65)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Networking (63)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Core (62)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module CookingStats (58)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module DerivedDataCache (57)
+[2016.05.03-12.08.34:687][  0]LogDerivedDataCache: Shutdown
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.05.03-12.08.34:687][  0]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.05.03-12.08.34:688][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.05.03-12.08.34:689][  0]LogExit: Exiting.
+[2016.05.03-12.08.34:705][  0]Log file closed, 05/03/16 13:08:34
